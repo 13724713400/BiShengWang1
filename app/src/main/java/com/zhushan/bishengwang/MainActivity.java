@@ -59,6 +59,7 @@ public class MainActivity extends Basetivity{
     private boolean isPress;
     private TextView main_printpealple_tv,main_me_tv,main_typograpter_tv,main_homepage_tv;
     private boolean isExit;
+
     private final static int ISEXIT=1;
     private String token;
     private AlertDialogUtils alertDialogUtils;
