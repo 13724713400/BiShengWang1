@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app1" />
+            <option value="$PROJECT_DIR$/bisheng" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/libraryhtree" />
+            <option value="$PROJECT_DIR$/librarytwo" />
+            <option value="$PROJECT_DIR$/my" />
+            <option value="$PROJECT_DIR$/myfsdg" />
+            <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/mylibrary2" />
+            <option value="$PROJECT_DIR$/okhttputils" />
+            <option value="$PROJECT_DIR$/phone" />
+            <option value="$PROJECT_DIR$/slidingdrawer" />
+            <option value="$PROJECT_DIR$/social_sdk_library_project" />
+            <option value="$PROJECT_DIR$/tipsview" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app1" />
+            <option value="$PROJECT_DIR$/bisheng" />
+            <option value="$PROJECT_DIR$/library" />
+            <option value="$PROJECT_DIR$/libraryhtree" />
+            <option value="$PROJECT_DIR$/librarytwo" />
+            <option value="$PROJECT_DIR$/my" />
+            <option value="$PROJECT_DIR$/myfsdg" />
+            <option value="$PROJECT_DIR$/mylibrary" />
+            <option value="$PROJECT_DIR$/mylibrary2" />
+            <option value="$PROJECT_DIR$/okhttputils" />
+            <option value="$PROJECT_DIR$/phone" />
+            <option value="$PROJECT_DIR$/slidingdrawer" />
+            <option value="$PROJECT_DIR$/social_sdk_library_project" />
+            <option value="$PROJECT_DIR$/tipsview" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

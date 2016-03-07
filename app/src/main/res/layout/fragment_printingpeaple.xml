@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textcoloryellow"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="140dip"
+            android:layout_height="124px"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup1"
+            android:background="@color/textcoloryellow" >
+            <TextView
+                android:id="@+id/PrintPeople"
+                android:layout_width="50dip"
+                android:layout_height="match_parent"
+                android:text="@string/PrintPeople"
+                android:textColor="@color/textcolorback"
+                android:textSize="@dimen/textsize22"
+                android:gravity="center"
+                android:layout_weight="1"  />
+            <TextView
+                android:textColor="@color/textcolorback"
+                android:layout_width="50dip"
+                android:layout_height="match_parent"
+                android:text="@string/homepage_quanbu"
+                android:textSize="@dimen/textsize22"
+                android:id="@+id/homepage_quanbu"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+          <!--  <TextView
+                android:layout_width="50dip"
+                android:layout_height="match_parent"
+                android:text="@string/flock"
+                android:textColor="@color/textcolorback"
+                android:gravity="center"
+
+                android:textSize="@dimen/textsize22"
+                android:layout_weight="1"
+                android:id="@+id/flock" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="210dip"
+            android:layout_height="8px"
+            android:orientation="horizontal"
+            android:layout_marginTop="-2dip"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2">
+
+            <TextView
+                android:id="@+id/iv_bottom_line"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/main_hei"
+                android:layout_height="3dp"
+                />
+            <TextView
+                android:id="@+id/iv_bottom_line1"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="3dip"
+                android:background="@color/textcoloryellow"
+                />
+            <TextView
+                android:id="@+id/iv_bottom_line2"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="3dip"
+                android:background="@color/textcoloryellow"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/vPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+
+</LinearLayout>

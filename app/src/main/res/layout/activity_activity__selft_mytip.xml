@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/my_tip_bg"
+    android:orientation="vertical"
+ >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/selftMytip_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/btn_arrow_back"
+            android:layout_alignParentLeft="true"
+           android:paddingLeft="40px"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mytip_titles"
+            android:textColor="@color/textcolorback"
+            android:layout_marginLeft="80px"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textsize18"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_mytip_zidingyixiaomishu"
+            android:textColor="@color/textcolorback"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize22"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/icon_setting"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63px"
+        android:layout_marginLeft="32px"
+        android:layout_marginRight="32px">
+    <ImageView
+        android:id="@+id/selftMytip_img1"
+        android:layout_width="306px"
+        android:layout_height="306px"
+        android:src="@mipmap/purchase"
+        android:scaleType="fitXY"
+      />
+    <ImageView
+        android:id="@+id/selftMytip_img2"
+        android:layout_width="306px"
+        android:layout_height="306px"
+        android:src="@mipmap/purchase"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="350px"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45px"
+        android:layout_marginLeft="32px"
+        android:layout_marginRight="32px">
+        <ImageView
+            android:id="@+id/selftMytip_img3"
+            android:layout_width="306px"
+            android:layout_height="306px"
+            android:src="@mipmap/purchase"
+            android:scaleType="fitXY"
+           />
+        <ImageView
+            android:id="@+id/selftMytip_img4"
+            android:layout_width="306px"
+            android:layout_height="306px"
+            android:src="@mipmap/purchase"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="350px"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selft_mytip_tianjia"
+        android:textColor="@color/my_tip_linecolor"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="30px"
+        android:textSize="@dimen/textsize18"
+
+        />
+
+    <Button
+        android:id="@+id/selftMytip_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50px"
+        android:layout_marginLeft="50px"
+        android:text="@string/selft_mytip_queren"
+        android:layout_marginTop="140px"
+        android:background="@drawable/selft_mytip_bg"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18"/>
+
+</LinearLayout>

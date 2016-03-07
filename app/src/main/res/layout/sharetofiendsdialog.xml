@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500px"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/publish_purchaseinfo_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:background="#f2f2f2"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp"
+        android:text="分享到"
+        android:textColor="#999" >
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/main_me_bg" >
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/sharetoweixin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:background="@drawable/bg"
+           >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/sharing_icon_wechat" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/weixinhaoyou"
+                android:textSize="@dimen/textsize18"
+                android:textColor="#999" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sharetoweixincommnet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:background="@drawable/bg"
+           >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/sharing_icon_moment" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/weixinpenhyouquan"
+                android:textColor="#999"
+                android:textSize="@dimen/textsize18"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sharetoQQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:background="@drawable/bg"
+          >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@mipmap/sharing_icon_qq" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/qqhaoyou"
+                android:textColor="#999"
+                android:textSize="@dimen/textsize18"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+ <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+      <!--  &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+   <!-- &lt;!&ndash; Application theme. &ndash;&gt;
+    <style name="AppTheme" parent="AppBaseTheme">
+        &lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;
+    </style>-->
+    <style name="MyAppTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MyAppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="MyAppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="my_dialog" parent="@android:style/Theme.Dialog">
+        <!--  <item name="android:windowNoTitle">true</item> -->
+        <!--   <item name="android:windowBackground">@drawable/egame_fillbox</item>  -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+   <!-- <style name="alertDialog" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/enteranimation</item>
+        <item name="@android:windowExitAnimation">@anim/exitanimation</item>
+    </style>-->
+</resources>

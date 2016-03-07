@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/main_me_bg"
+    android:orientation="vertical"
+
+
+    >
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+        <ImageView
+            android:id="@+id/mymessage_item_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/btn_arrow_back"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            />
+        <TextView android:textColor="@color/textcolorback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mymessage_titles"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize22"
+
+            />
+
+    </RelativeLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/mymessage_liuyan_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fastScrollEnabled="true"
+        android:divider="@color/main_me_bg"
+        android:dividerHeight="1px"
+        android:scrollbars="none"
+        android:layout_below="@+id/detailes_item_liuyanTwo" android:layout_above="@+id/detailes_bottom"
+        >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+
+</LinearLayout>

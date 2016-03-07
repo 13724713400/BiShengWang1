@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12px"
+    android:layout_marginRight="12px"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_height="155px">
+
+        <ImageView
+            android:id="@+id/printing_item_touxiangl"
+            android:layout_width="135px"
+            android:background="#AA6AB3"
+            android:layout_height="135px"
+            android:layout_marginLeft="17px"
+            android:scaleType="fitXY"
+            android:src="@mipmap/touxiang_01"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:id="@+id/printing_item_Nam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="毕昇小女"
+            android:textColor="@color/mypublish_titles"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize22"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/printing_item_touxiangl"
+            android:layout_marginLeft="18px"
+            android:layout_marginTop="2px"
+
+            android:layout_alignParentTop="true" />
+        <ImageView
+            android:id="@+id/printing_item_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_male"
+            android:layout_below="@id/printing_item_Nam"
+            android:layout_toRightOf="@id/printing_item_touxiangl"
+            android:layout_marginTop="5px"
+            android:layout_marginLeft="18px"/>
+
+        <ImageView
+            android:id="@+id/printing_item_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ren"
+            android:layout_below="@id/printing_item_Nam"
+            android:layout_marginLeft="16px"
+            android:layout_marginTop="5px"
+            android:layout_toRightOf="@+id/printing_item_sex"/>
+
+        <TextView
+            android:id="@+id/printing_item_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一起来说说印刷吧!"
+            android:textSize="@dimen/textsize16"
+            android:textColor="@color/mypublish_textcolor"
+            android:layout_marginTop="20px"
+            android:layout_below="@id/printing_item_sex"
+            android:layout_marginRight="25px"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_alignLeft="@+id/printing_item_Nam"
+            android:layout_alignStart="@+id/printing_item_Nam" />
+        <TextView
+            android:id="@+id/printing_item_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.1km"
+            android:layout_marginLeft="16px"
+            android:textSize="@dimen/textsize14"
+            android:layout_below="@id/printing_item_Nam"
+            android:layout_toRightOf="@+id/printing_item_type"
+            android:textColor="@color/mypublish_textcolor" />
+        <!-- <TextView
+             android:id="@+id/printing_item_diz"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="虎门镇"
+             android:textColor="#A4A4A4"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true"
+             android:layout_marginRight="11dp"
+             android:layout_marginTop="0dp"
+             android:layout_marginEnd="11dp"
+             android:layout_alignParentTop="true" />-->
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="17dp"
+            android:textSize="20px"
+            android:text="25"
+            android:layout_marginTop="0.54dp"
+            android:textColor="#fff"
+            android:id="@+id/userage"
+            android:layout_alignTop="@+id/printing_item_sex"
+            android:layout_toLeftOf="@+id/printing_item_type"
+            android:layout_toStartOf="@+id/printing_item_type" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="#ccc"
+            />
+    </RelativeLayout>
+    <!--  <include
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          layout="@layout/mainmelinecolors"
+          android:layout_marginLeft="104px"
+          android:layout_marginRight="18px"></include>-->
+    <!--
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="105px">
+
+        <ImageView
+            android:id="@+id/printing_item_guanzhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25px"
+            android:layout_marginLeft="27px"
+            android:background="@drawable/focusdrawble"/>
+        <TextView
+            android:id="@+id/printing_item_zhiwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职位:采购"
+            android:textColor="@color/explore_textcontent"
+            android:layout_marginLeft="128px"
+            android:layout_marginTop="20px"
+            android:textSize="@dimen/textsize16"/>
+
+        <TextView
+            android:id="@+id/printing_item_gongsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司:东莞市盛洪纸品有限公司"
+            android:textColor="@color/explore_textcontent"
+            android:layout_marginLeft="128px"
+            android:layout_marginTop="63px"
+            android:textSize="@dimen/textsize16"/>
+    </RelativeLayout>
+    -->
+    <!--  <include
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          layout="@layout/mainmelinecolors"
+          android:layout_marginLeft="104px"
+          android:layout_marginRight="18px"></include>-->
+    <!--  <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="20px">
+      <TextView
+          android:id="@+id/printing_item_guanzhutxt"
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="关注 880"
+          android:textColor="@color/main_me_textcolor"
+          android:layout_marginLeft="129px"
+          android:layout_marginTop="20px"
+
+          android:textSize="@dimen/textsize16"
+          />
+
+      <TextView
+          android:id="@+id/printing_item_huoyuezhi"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="活跃值 45451"
+          android:textColor="@color/main_me_textcolor"
+          android:layout_marginLeft="261px"
+          android:layout_marginTop="20px"
+
+          android:textSize="@dimen/textsize16"
+          />
+      </RelativeLayout>-->
+</LinearLayout>

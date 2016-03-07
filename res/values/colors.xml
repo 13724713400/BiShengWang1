@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textcoloryellow">#EED034</color>
+    <color name="textcolorback">#2D2E30</color>
+    <color name="register_bg">#2D2D2D</color>
+    <color name="register_et">#AEAEB0</color>
+    <color name="linecolors">#C0C0C0</color>
+    <color name="typograpter_radiogroup">#282828</color>
+    <color name="typograpter_bg">#EFEFEF</color>
+    <color name="typograpter_text">#323232</color>
+    <color name="typograpter_textdefault">#FFA2A2A2</color>
+    <color name="textcolorwite">#ffff</color>
+    <color name="main_me_text">#B5B6B6</color>
+    <color name="main_me_bg">#EFEFEF</color>
+    <color name="main_me_textcolor">#605E5C</color>
+    <color name="main_me_textline">#C1C1C1</color>
+    <color name="mypublish_textcolor">#AEAEAE</color>
+    <color name="mypublish_titles">#312D2C</color>
+    <color name="mypublish_content">#4f4b4a</color>
+    <color name="explore_textcontent">#5a5956</color>
+    <color name="publishdesignrequirement_et_bg">#595758</color>
+    <color name="publishdesignrequirement_et_text">#858484</color>
+     <color name="publishdesignrequirement_et_luyin">#ff7175</color>
+      <color name="publishpurchase_textcolor">#4e4a49</color>
+      <color name="bantouming">#e0000000</color>
+      <color name="touming">#00000000</color>
+</resources>

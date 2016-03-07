@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_liouyan_bg">
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+        <TextView android:textColor="@color/textcolorback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/liuyan_titles"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize22"
+            />
+        <ImageView
+            android:id="@+id/director_setting_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/cha"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/liuyan_content"
+        android:layout_width="match_parent"
+        android:layout_height="338px"
+        android:background="@drawable/publish_purchaseinfo_bg"
+        android:layout_marginLeft="25px"
+        android:layout_marginRight="25px"
+        android:layout_marginTop="25px"
+        android:hint="亲！您还没有留言,请留个言吧!"
+        android:textColorHint="@color/main_me_text"
+        android:gravity="top"
+        android:paddingTop="25px"
+        android:paddingLeft="25px"
+        android:textSize="@dimen/textsize18"
+        android:textColor="@color/main_me_text"
+        android:layout_marginBottom="107px"
+        />
+    <LinearLayout
+        android:id="@+id/login_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/liuyan_cancle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/textcolorback"
+            android:gravity="center"
+            android:text="@string/liuyan_quxiao"
+            android:textColor="@color/textcoloryellow"
+            android:textSize="@dimen/textsize22" />
+
+        <Button
+            android:id="@+id/liuyan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/textcoloryellow"
+            android:gravity="center"
+            android:text="@string/liuyan"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize22" />
+    </LinearLayout>
+</LinearLayout>

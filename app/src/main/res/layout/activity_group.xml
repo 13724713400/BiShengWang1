@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#eee"
+    android:id="@+id/rl2"
+    android:layout_height="match_parent"
+    tools:context="com.zhushan.bishengwang.activity.Group">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="85px"
+        android:background="@color/textcoloryellow"
+        android:id="@+id/relativeLayout">
+        <ImageView
+            android:id="@+id/typographer_share"
+            android:layout_width="30dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="6dp"
+            android:src="@mipmap/backtrack"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            />
+        <TextView
+            android:id="@+id/typographer_city"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="群组(0)"
+            android:layout_marginLeft="15dp"
+            android:textSize="30px"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/typographer_share"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textcolorback"
+            />
+        <ImageView
+            android:id="@+id/typographer"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:src="@mipmap/find"
+            android:layout_toLeftOf="@+id/typographer_shae"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="60px"/>
+        <ImageView
+            android:id="@+id/typographer_shae"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/addition"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20px"/>
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView4"
+        android:layout_below="@+id/relativeLayout"
+        android:textColor="#fff"
+        android:scrollbars="none"
+
+        android:background="@color/cardview_light_background"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#eee"
+        android:id="@+id/ban"
+        android:layout_below="@+id/listView4"
+        android:layout_marginTop="-2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="亲，您还没有关注的好友了哦，快去添加吧！"
+        android:id="@+id/textView5"
+        android:visibility="gone"
+        android:textColor="#f00"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+

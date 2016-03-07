@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/yindapye_bg" >
+
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:src="@mipmap/llogoitext" />
+
+    <LinearLayout
+        android:id="@+id/login_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+      <!--  <Button
+            android:id="@+id/register_main_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/textcoloryellow"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize22" />
+
+        <Button
+            android:id="@+id/loginmain_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/textcolorback"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/textcoloryellow"
+            android:textSize="@dimen/textsize22" />-->
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/loginmain_touxiang"
+        android:layout_width="176px"
+        android:layout_height="176px"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="80px"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/login_logo" />
+
+</RelativeLayout>

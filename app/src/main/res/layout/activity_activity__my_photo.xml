@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_me_bg"
+    >
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+        <ImageView
+            android:id="@+id/myphoto_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/btn_arrow_back"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            />
+        <TextView
+            android:id="@+id/myphoto_titles"
+            android:textColor="@color/textcolorback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myphoto_titles"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize22"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20px">
+
+        <TextView
+            android:id="@+id/myPhoto_today"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/jintian"
+            android:textColor="@color/textcolorback"
+            android:textSize="50px"
+            android:gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="20px"/>
+        <ImageView
+            android:id="@+id/myPhoto_add"
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:src="@mipmap/purchase"
+            android:layout_marginLeft="20px"/>
+
+    </LinearLayout>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/myphoto_pulltorefreshlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:dividerHeight="20px"
+        android:divider="@color/main_me_bg"
+        android:layout_marginRight="12px"
+        android:layout_marginLeft="12px"
+        android:scrollbars="none"
+        android:visibility="visible"
+        >
+    </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</LinearLayout>

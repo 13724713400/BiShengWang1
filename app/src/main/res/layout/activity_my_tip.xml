@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@color/my_tip_bg"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/mypublish_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/btn_arrow_back"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40px"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mytip_tanshuo"
+            android:textColor="@color/textcolorback"
+            android:layout_marginLeft="80px"
+           android:layout_centerVertical="true"
+            android:textSize="@dimen/textsize18"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mytip_titles"
+            android:textColor="@color/textcolorback"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize22"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/icon_setting"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="290px"
+        android:background="@color/my_tip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mytip_tuijianxiaomishu"
+            android:layout_marginTop="110px"
+            android:layout_marginLeft="67px"
+            android:textColor="@color/textcolorwite"
+            android:textSize="@dimen/textsize18"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="510px"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/secretary_bigman"
+            android:scaleType="fitXY"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize18"
+        android:text="@string/mytip_wodezidingyi"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="30px"
+        android:textColor="@color/textcolorback"
+        />
+   <include layout="@layout/mytip_line"></include>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/my_tip_linecolor"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true"
+        ></ListView>
+    <include layout="@layout/mytip_line"></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize18"
+        android:text="@string/mytip_wodeshiyongjilu"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="30px"
+        android:textColor="@color/textcolorback"
+        />
+    <include layout="@layout/mytip_line"></include>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/my_tip_linecolor"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="true"
+        ></ListView>
+    <include layout="@layout/mytip_line"></include>
+
+
+</LinearLayout>

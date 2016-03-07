@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/typographer_item"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="86dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="东莞市盛洪制品有限公司"
+            android:textColor="@color/typograpter_text"
+            android:textSize="@dimen/textsize14" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/typographer_text_selector"
+                android:button="@null"
+                android:padding="5dp"
+                android:text="无碳纸"
+                android:textColor="@drawable/typographer_textcolor_selector"
+                android:textSize="@dimen/textsize12" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/typographer_text_selector"
+                android:button="@null"
+                android:padding="5dp"
+                android:text="单据印刷"
+                android:textColor="@drawable/typographer_textcolor_selector"
+                android:textSize="@dimen/textsize12" />
+        </RadioGroup>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/typographer_text_selector"
+            android:button="@null"
+            android:padding="5dp"
+            android:text="复写联单"
+            android:textColor="@drawable/typographer_textcolor_selector"
+            android:textSize="@dimen/textsize12" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center" 
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_positioning" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我在东莞虎门大宁"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/typograpter_textdefault"
+                android:textSize="@dimen/textsize14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+      
+       android:layout_marginLeft="20dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+            android:src="@drawable/icon_phone_off" 
+            android:gravity="top"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:text="0.5km"
+            android:textColor="@color/typograpter_textdefault"
+            android:textSize="@dimen/textsize14" 
+            android:layout_marginBottom="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

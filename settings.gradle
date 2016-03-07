@@ -1,0 +1,12 @@
+include ':app', ':mylibrary', ':slidingdrawer', ':mylibrary2', ':bisheng', ':phone', ':my', ':myfsdg', 'library', ':okhttputils', ':app2', ':tipsview2'
+
+
+
+
+
+include ':library'
+include ':librarytwo'
+include ':libraryhtree'
+include ':social_sdk_library_project'
+project(':app2').projectDir = new File('app1')
+project(':tipsview2').projectDir = new File('tipsview')

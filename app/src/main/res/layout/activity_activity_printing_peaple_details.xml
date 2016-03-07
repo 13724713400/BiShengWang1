@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_me_bg"
+    tools:context="com.zhushan.bishengwang.activity.Activity_printingPeapleDetails">
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/tansuo_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:src="@mipmap/btn_arrow_back" />
+        <!--  <TextView
+             android:layout_toRightOf="@+id/back"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/explore_wode"
+              android:textSize="@dimen/textsize18"
+              android:textColor="@color/textcolorback"
+              android:layout_centerVertical="true"
+              android:layout_marginLeft="16px"
+              />
+              -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="省份"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize22" />
+    </RelativeLayout>
+
+ <ListView
+     android:id="@+id/province_listview"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:fastScrollEnabled="true"
+     >
+
+ </ListView>
+
+</RelativeLayout>

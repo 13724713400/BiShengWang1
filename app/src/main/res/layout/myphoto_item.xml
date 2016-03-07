@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_me_bg">
+
+    <TextView
+        android:id="@+id/myphoto_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07"
+        android:textColor="@color/textcolorback"
+        android:textSize="50px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="20px"/>
+
+    <TextView
+        android:id="@+id/myphoto_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1月"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="40px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="160px"
+        android:layout_marginTop="20px"
+        android:layout_marginRight="20px">
+    <TextView
+        android:id="@+id/myphoto_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1月yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18"
+        android:layout_marginRight="20px"/>
+        <ImageView
+            android:id="@+id/myPhoto_add"
+            android:layout_marginTop="10px"
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:src="@mipmap/purchase"/>
+    <com.zhushan.bishengwang.Iselfview.MyGridView
+        android:id="@+id/myphoto_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:verticalSpacing="5px"
+        android:horizontalSpacing="5px"
+        android:text="22222222222222222"
+        android:layout_marginTop="20px"
+        android:textColor="@color/textcolorback"
+     >
+    </com.zhushan.bishengwang.Iselfview.MyGridView>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center_vertical"
+        >
+        
+        <ImageView 
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/liuyanhead"
+            android:scaleType="centerCrop"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eason"
+            android:textSize="@dimen/textsize18"
+            android:textColor="@color/mypublish_titles"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"/>
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_male"
+            android:layout_marginLeft="15dp"/>
+         <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shang"
+            android:layout_marginLeft="7dp"/>
+         
+         <TextView
+             android:layout_width="37dp"
+             android:layout_height="wrap_content"
+             android:text="@string/detailes_sixin"
+             android:textColor="@color/mypublish_textcolor"
+             android:textSize="@dimen/textsize12" 
+             android:gravity="center"
+             android:paddingTop="2dp"
+             android:paddingBottom="2dp"
+             android:layout_marginLeft="20dp"
+             />
+
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您好啊，我公司是专业做画册的期待与您合作"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/mypublish_content"/>
+
+    <LinearLayout 
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015.11.17  15.30"
+            android:textColor="@color/mypublish_textcolor"/>
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_positioning"
+            android:layout_marginLeft="40dp"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我在东莞"
+            android:textColor="@color/mypublish_textcolor"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"/>
+        
+        
+    </LinearLayout>
+</LinearLayout>

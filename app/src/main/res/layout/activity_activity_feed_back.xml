@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f0f0f0" >
+    <LinearLayout
+        android:layout_above="@+id/FeedBack_submit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:id="@+id/detailes_titles"
+            android:layout_width="match_parent"
+            android:layout_height="124px"
+            android:layout_alignParentTop="true"
+            android:background="@color/textcoloryellow" >
+            <ImageView
+                android:id="@+id/feet_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/btn_arrow_back"
+                android:gravity="center"
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                />
+            <TextView android:textColor="@color/textcolorback"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/feet_back_titles"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/textsize22"
+
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32px"
+            android:textColor="#ccc"
+            android:id="@+id/tv"
+            android:layout_below="@+id/relativeLayout"
+            android:text="请详细描述您遇到的问题或您对毕昇网的建议:"/>
+        <EditText
+            android:id="@+id/feedBack_editText"
+            android:layout_width="match_parent"
+            android:layout_height="320px"
+            android:paddingLeft="24px"
+            android:gravity="top"
+            android:background="@drawable/publish_purchaseinfo_bg"
+            android:layout_marginTop="0px"
+            android:layout_marginLeft="32px"
+            android:layout_marginRight="32px"
+            android:paddingTop="24px"
+            android:textColorHint="#999"
+            android:textColor="#323232"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32px"
+            android:textColor="#ccc"
+            android:id="@+id/tv23"
+            android:layout_below="@+id/bj"
+            android:text="请留下您的邮箱以便我们回复或建议:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="32px"
+            android:layout_marginRight="32px"
+            android:textColor="#ccc"
+            android:background="#fff"
+            android:paddingLeft="5px"
+
+            android:inputType="textMultiLine"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/tv23"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/FeedBack_submit"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:textColor="@color/textcolorback"
+        android:background="@color/textcoloryellow"
+        android:text="提交"/>
+</RelativeLayout>

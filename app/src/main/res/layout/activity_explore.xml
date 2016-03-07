@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/main_me_bg">
+    
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/tansuo_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:src="@mipmap/btn_arrow_back" />
+      <!--  <TextView
+           android:layout_toRightOf="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/explore_wode"
+            android:textSize="@dimen/textsize18"
+            android:textColor="@color/textcolorback"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16px"
+            />
+			-->
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/explore_tansuo"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize22" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"
+            android:src="@mipmap/yudian" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/tansuo_mytip_img"
+        android:layout_width="match_parent"
+        android:layout_height="341px"
+        android:src="@mipmap/secretary"
+        android:layout_marginTop="44px"
+        android:layout_marginLeft="13px"
+        android:layout_marginRight="13px"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:id="@+id/tansuo_leida_img"
+        android:layout_width="match_parent"
+        android:layout_height="341px"
+        android:src="@mipmap/leida"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="13px"
+        android:layout_marginRight="13px"
+        android:scaleType="centerCrop"
+        />
+
+
+</LinearLayout>

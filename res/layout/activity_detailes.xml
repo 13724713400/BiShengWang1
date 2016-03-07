@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/btn_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/detailes_titles"
+            android:textSize="@dimen/textsize18" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/yudian" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/detailes_tab"
+        android:layout_below="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:background="#282828"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/shuai" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/qiu" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/jiu" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/zhi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#282828" >
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="2dp" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_above="@+id/detailes_bottom"
+        android:id="@+id/detailes_viewpaper"
+        android:layout_below="@+id/detailes_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout 
+        android:id="@+id/detailes_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@color/textcoloryellow">
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/detailes_liuyan"
+            android:textColor="@color/textcolorback"
+            android:gravity="center"/>
+        
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/detailes_sixin"
+            android:textColor="@color/textcolorback"
+            android:gravity="center"/>
+        
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/detailes_tuijian"
+            android:textColor="@color/textcolorback"
+            android:gravity="center"/>
+    </LinearLayout>
+    
+</RelativeLayout>

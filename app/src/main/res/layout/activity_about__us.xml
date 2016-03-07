@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhushan.bishengwang.activity.About_Us">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="114px"
+        android:background="@color/textcoloryellow"
+        android:id="@+id/relativeLayout">
+        <ImageView
+            android:id="@+id/typographer_share"
+            android:layout_width="30dp"
+            android:layout_height="18dp"
+            android:layout_marginBottom="6dp"
+            android:src="@mipmap/backtrack"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            />
+
+        <TextView
+            android:id="@+id/typographer_city"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="关于我们"
+            android:layout_marginLeft="15dp"
+            android:textSize="36px"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/typographer_share"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/textcolorback"
+            />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/relativeLayout"
+        android:background="@color/cardview_light_background"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="20dip"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:textColor="@color/bantouming"
+            android:textSize="30px"
+            android:text="        东莞市毕昇网络科技(印刷信息平台)有限公司位于市虎门镇，创办于2015年，毕昇网是一个移动社交印刷平台，聚集了“印刷包装、油墨耗材、机械配件”等企业及个人的信息平台，垃近人于人之间的距离、为印刷行业打造个人品牌形象，“毕昇网”你随身的印刷专家。"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+</RelativeLayout>

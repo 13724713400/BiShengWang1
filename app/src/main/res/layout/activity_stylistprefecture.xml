@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40px"
+            android:src="@mipmap/btn_arrow_back" />
+        <TextView
+            android:layout_toRightOf="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stylistprefecture_tansuo"
+            android:textSize="@dimen/textsize18"
+            android:textColor="@color/textcolorback"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16px"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/stylistprefecture_titles"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize22" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"
+            android:src="@mipmap/yudian" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="@color/typograpter_radiogroup">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stylistprefecture_dongguan"
+            android:textColor="@color/textcoloryellow"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textsize18"
+            android:layout_marginLeft="70px"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stylistprefecture_anbigepaiming"
+            android:textColor="@color/textcoloryellow"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textsize18"
+            android:layout_marginRight="30px"
+            />
+
+
+    </RelativeLayout>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/textcoloryellow"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="730px"
+        android:background="@drawable/stylistprefecture_bg"
+        android:layout_marginLeft="12px"
+        android:layout_marginRight="12px"
+        android:layout_marginTop="26px"
+        >
+
+        <ImageView
+            android:layout_width="305px"
+            android:layout_height="305px"
+            android:background="#ff7174"
+            android:layout_marginTop="38px"
+            android:layout_marginLeft="24px"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自由的小鸟"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize18"
+            android:layout_marginTop="53px"
+            android:layout_marginLeft="378px"
+            android:textColor="@color/textcoloryellow"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_male"
+            android:layout_marginTop="107px"
+            android:layout_marginLeft="378px"
+
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/chuang_on"
+            android:layout_marginTop="107px"
+            android:layout_marginLeft="453px"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.0km"
+            android:textSize="@dimen/textsize14"
+            android:textColor="@color/mypublish_textcolor"
+            android:layout_marginTop="107px"
+            android:layout_marginLeft="512px"/>
+            
+        <TextView
+            android:layout_width="290px"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:textSize="@dimen/textsize14"
+            android:layout_marginTop="195px"
+            android:layout_marginLeft="378px"
+            android:text="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/textcoloryellow"
+            android:layout_marginTop="449px"
+            android:layout_marginLeft="41px"
+            android:layout_marginRight="38px"
+            ></View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stylistprefecture_gerenzuopin"
+            android:textColor="@color/textcoloryellow"
+            android:textSize="@dimen/textsize18"
+            android:textStyle="bold"
+            android:layout_marginTop="476px"
+            android:layout_marginLeft="41px"
+            />
+
+        <ImageView
+            android:layout_width="144px"
+            android:layout_height="147px"
+            android:background="#b5b5b5b6"
+            android:layout_marginTop="532px"
+            android:layout_marginLeft="41px"/>
+
+        <ImageView
+            android:layout_width="144px"
+            android:layout_height="147px"
+            android:background="#b5b5b5b6"
+            android:layout_marginTop="532px"
+            android:layout_marginLeft="197px"/>
+        <ImageView
+            android:layout_width="144px"
+            android:layout_height="147px"
+            android:background="#b5b5b5b6"
+            android:layout_marginTop="532px"
+            android:layout_marginLeft="355px"/>
+        <ImageView
+            android:layout_width="144px"
+            android:layout_height="147px"
+            android:background="#b5b5b5b6"
+            android:layout_marginTop="532px"
+            android:layout_marginLeft="510px"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12px"
+        android:layout_marginRight="12px"
+        android:layout_marginBottom="137px"
+        >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="532px"
+            android:layout_marginRight="8px"
+            android:background="@drawable/stylistprefecture_bg"
+            android:layout_marginTop="43px">
+            
+            <ImageView
+                android:layout_width="305px"
+                android:layout_height="305px"
+                android:background="#ff7174"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32px"
+              />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eason"
+                android:textSize="@dimen/textsize18"
+                android:textColor="@color/textcoloryellow"
+                android:layout_marginLeft="125px"
+                android:layout_marginTop="373px"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_male"
+                android:layout_marginLeft="113px"
+                android:layout_marginTop="424px"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chuang_off"
+                android:layout_marginLeft="190px"
+                android:layout_marginTop="424px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设计师"
+                android:textColor="@color/textcolorwite"
+                android:textSize="@dimen/textsize18"
+                android:layout_marginTop="488px"
+                android:layout_marginLeft="22px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.8km"
+                android:textColor="@color/mypublish_textcolor"
+                android:textSize="@dimen/textsize14"
+                android:layout_marginTop="488px"
+                android:layout_marginLeft="260px"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="532px"
+            android:layout_marginLeft="8px"
+            android:background="@drawable/stylistprefecture_bg"
+            android:layout_marginTop="43px"
+            >
+
+            <ImageView
+                android:layout_width="305px"
+                android:layout_height="305px"
+                android:background="#ff7174"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32px"
+               />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eason"
+                android:textSize="@dimen/textsize18"
+                android:textColor="@color/textcoloryellow"
+                android:layout_marginLeft="125px"
+                android:layout_marginTop="373px"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_male"
+                android:layout_marginLeft="113px"
+                android:layout_marginTop="424px"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chuang_off"
+                android:layout_marginLeft="190px"
+                android:layout_marginTop="424px"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设计师"
+                android:textColor="@color/textcolorwite"
+                android:textSize="@dimen/textsize18"
+                android:layout_marginTop="488px"
+                android:layout_marginLeft="22px"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.8km"
+                android:textColor="@color/mypublish_textcolor"
+                android:textSize="@dimen/textsize14"
+                android:layout_marginTop="488px"
+                android:layout_marginLeft="260px"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

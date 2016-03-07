@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bantouming"
+   
+    >/
+  
+    <ImageView 
+    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dialog_zhaokaotianxia"/>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+       >
+        
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dialog_shuai"/>
+        
+          <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dialog_qiu"/>
+        
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingLeft="20dp">
+         <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubu"
+            />
+         
+          <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubucagouxinxi"
+            />
+        
+         </LinearLayout>
+          
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cha"/>
+        
+         <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingRight="20dp">
+         <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubu"
+            />
+         
+          <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_gonfyingxinxi"
+            />
+        
+         </LinearLayout>
+        
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+       >
+        
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dialog_jiu"/>
+        
+          <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dialog_zhi"/>
+        
+        
+    </LinearLayout>
+    
+     
+      <LinearLayout 
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+           >
+         <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubu"
+            />
+         
+          <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_ershouxinxi"
+            />
+        
+         </LinearLayout>
+       
+        
+         <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+           >
+         <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubu"
+            />
+         
+          <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_qiuzhixinxi"
+            />
+        
+         </LinearLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

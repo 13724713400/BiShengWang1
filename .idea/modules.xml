@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BiShengWang1.iml" filepath="$PROJECT_DIR$/BiShengWang1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app1/app2.iml" filepath="$PROJECT_DIR$/app1/app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bisheng/bisheng.iml" filepath="$PROJECT_DIR$/bisheng/bisheng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryhtree/libraryhtree.iml" filepath="$PROJECT_DIR$/libraryhtree/libraryhtree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librarytwo/librarytwo.iml" filepath="$PROJECT_DIR$/librarytwo/librarytwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my/my.iml" filepath="$PROJECT_DIR$/my/my.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myfsdg/myfsdg.iml" filepath="$PROJECT_DIR$/myfsdg/myfsdg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary2/mylibrary2.iml" filepath="$PROJECT_DIR$/mylibrary2/mylibrary2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttputils/okhttputils.iml" filepath="$PROJECT_DIR$/okhttputils/okhttputils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phone/phone.iml" filepath="$PROJECT_DIR$/phone/phone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingdrawer/slidingdrawer.iml" filepath="$PROJECT_DIR$/slidingdrawer/slidingdrawer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/social_sdk_library_project/social_sdk_library_project.iml" filepath="$PROJECT_DIR$/social_sdk_library_project/social_sdk_library_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tipsview/tipsview2.iml" filepath="$PROJECT_DIR$/tipsview/tipsview2.iml" />
+    </modules>
+  </component>
+</project>

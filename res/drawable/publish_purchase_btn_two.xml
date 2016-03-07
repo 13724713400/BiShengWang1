@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners android:radius="5dp"/>
+    <gradient android:startColor="@color/typograpter_radiogroup" android:endColor="@color/typograpter_radiogroup"></gradient>
+	<stroke android:width="1dp" android:color="@color/main_me_textline"/>
+</shape>

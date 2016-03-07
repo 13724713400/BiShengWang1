@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_me_bg"
+    >
+    <RelativeLayout
+        android:id="@+id/lll"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:background="@color/textcoloryellow" >
+
+        <TextView
+            android:id="@+id/typographer_city"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="联系人"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textsize22"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="30px"
+
+            android:textColor="@color/textcolorback"
+            />
+
+
+
+
+    </RelativeLayout>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_below="@+id/lll"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:fillViewport="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+
+            <include layout="@layout/publish_item_line"></include>
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lis5"
+                android:background="@color/cardview_light_background"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/sdf"
+                android:text="我的好友"
+                android:paddingLeft="20dp"
+                android:textSize="@dimen/textsize18"
+                android:gravity="center_vertical"
+                android:textColor="#333"
+                android:layout_height="40dp" />
+            <include layout="@layout/publish_item_line"></include>
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lis6"
+                android:background="@drawable/pas"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</ScrollView>
+
+
+
+</RelativeLayout>

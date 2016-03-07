@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/typograpter_radiogroup" >
+
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40px"
+            android:src="@mipmap/btn_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/publishdesignrequiremwet_titles"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize18" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"
+            android:src="@mipmap/yudian"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/publishdesign_btn"
+        android:layout_below="@+id/detailes_titles" 
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="76px"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="40px"
+                android:background="@drawable/publisdesign_et_bg"
+                android:hint="@string/publishdesignrequiremwet_biaoti"
+                android:paddingLeft="28px"
+                android:textColor="@color/textcolorwite"
+                android:textSize="@dimen/textsize14" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="204px"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/publisdesign_et_bg"
+                android:gravity="top"
+                android:hint="@string/publishdesignrequiremwet_shejixuqiu"
+                android:paddingLeft="28px"
+                android:paddingTop="20px"
+                android:textColor="@color/textcolorwite"
+                android:textSize="@dimen/textsize14" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="56px"
+                android:gravity="center" >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/publishdesignrequiremwet_xusahngjinre"
+                    android:textColor="@color/textcolorwite" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/publishdesignrequiremwet_shulaing"
+                    android:textColor="@color/textcolorwite" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/publishdesignrequiremwet_zhouqi"
+                    android:textColor="@color/textcolorwite" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66px"
+                android:layout_marginTop="20px"
+                android:gravity="center" >
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="36px"
+                    android:layout_marginRight="18px"
+                    android:layout_weight="1"
+                    android:background="@drawable/publisdesign_et_bg"
+                    android:textColor="@color/textcolorwite"
+                    android:textSize="@dimen/textsize14" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="18px"
+                    android:layout_marginRight="18px"
+                    android:layout_weight="1"
+                    android:background="@drawable/publisdesign_et_bg"
+                    android:drawableLeft="@mipmap/arrow"
+                    android:paddingLeft="14px"
+                    android:textColor="@color/textcolorwite"
+                    android:textSize="@dimen/textsize14" />
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="18px"
+                    android:layout_marginRight="28px"
+                    android:layout_weight="1"
+                    android:background="@drawable/publisdesign_et_bg"
+                    android:gravity="center"
+                    android:hint="@string/publishdesignrequiremwet_gongzuori"
+                    android:textColor="@color/textcolorwite"
+                    android:textSize="@dimen/textsize14" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36px"
+                android:layout_marginTop="46px"
+                android:text="@string/publishdesignrequiremwet_tupian"
+                android:textColor="@color/publishdesignrequirement_et_text" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36px"
+                android:layout_marginRight="28px"
+                android:layout_marginTop="24px" >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="184px"
+                    android:layout_marginRight="46px"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/add" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="184px"
+                    android:layout_marginRight="46px"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/add" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="184px"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/add" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36px"
+                android:layout_marginTop="60px"
+                android:text="@string/publishdesignrequiremwet_yuyin"
+                android:textColor="@color/publishdesignrequirement_et_text" />
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:orientation="horizontal"
+                 android:layout_marginBottom="100px"
+                android:layout_marginLeft="36px"
+                android:layout_marginTop="20px">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:src="@mipmap/voice" />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0”"
+                android:textSize="@dimen/textsize12"
+                android:textColor="@color/publishdesignrequirement_et_luyin"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_marginLeft="16px"
+                />
+            
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/publishdesign_btn"
+        android:layout_width="match_parent"
+        android:layout_height="94px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/textcoloryellow"
+        android:gravity="center"
+        android:text="@string/publishdesignrequiremwet_fasong"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18" />
+</RelativeLayout>

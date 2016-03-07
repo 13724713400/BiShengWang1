@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_me_bg" >
+
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/publishi_used_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:src="@mipmap/btn_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/textcolorback"
+            android:text="@string/publishi_usedinfo_titles"
+            android:textSize="@dimen/textsize22" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"
+            android:src="@mipmap/yudian"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/publishi_used_send"
+        android:layout_below="@+id/detailes_titles" 
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px">
+                
+                <TextView 
+                    android:layout_marginLeft="10px"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishpurchase_moban"
+                    android:textSize="@dimen/textsize16"
+                    android:background="@drawable/publish_purchase_btn"
+                    android:textColor="@color/publishdesignrequirement_et_text"
+                    android:drawableRight="@mipmap/btn_arrow_down"
+                    android:drawablePadding="10px"
+                    android:padding="16px"
+                    />
+            </RelativeLayout>
+            <EditText
+                android:id="@+id/publishi_used_biaoti"
+                android:layout_width="match_parent"
+                android:layout_height="76px"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="16px"
+                android:background="@drawable/publish_purchaseinfo_bg"
+                android:hint="@string/publishi_usedinfo_biaoti"
+                android:textColorHint="@color/publishdesignrequirement_et_text"
+                android:paddingLeft="28px"
+                android:textColor="@color/textcolorback"
+                android:textSize="@dimen/textsize16" />
+
+            <EditText
+                android:id="@+id/publishi_used_content"
+                android:layout_width="match_parent"
+                android:layout_height="204px"
+                android:layout_marginLeft="10px"
+                android:layout_marginRight="10px"
+                android:layout_marginTop="10px"
+                android:background="@drawable/publish_purchaseinfo_bg"
+                android:gravity="top"
+                android:textColorHint="@color/publishdesignrequirement_et_text"
+                android:hint="@string/publishpurchase_neirong"
+                android:paddingLeft="28px"
+                android:paddingTop="20px"
+                android:textColor="@color/textcolorback"
+                android:textSize="@dimen/textsize16" />
+            <RelativeLayout
+                android:id="@+id/publishi_used_xinjiuchengdu"
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginRight="10px"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="27px"
+                android:background="@drawable/publish_purchaseinfo_bg"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishi_usedinfo_xinjiucengdu"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30px"
+                    />
+                <include layout="@layout/publishi_used_line"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ></include>
+                <TextView
+                    android:id="@+id/publishi_used_jicheng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="九成"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="550px"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/arrow_r"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="22px"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginRight="10px"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="17px"
+                android:background="@drawable/publish_purchaseinfo_bg"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishi_usedinfo_jiagefanwei"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30px"
+                    />
+                <include layout="@layout/publishi_used_line"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ></include>
+                <EditText
+                    android:id="@+id/publishi_used_fromprice"
+                    android:layout_width="266px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="163px"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize14"
+                    android:paddingLeft="10px"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:numeric="integer"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:padding="16px"
+                    />
+                <EditText
+                    android:id="@+id/publishi_used_toprice"
+                    android:layout_width="266px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="453px"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize14"
+                    android:paddingLeft="10px"
+                    android:padding="16px"
+                    android:numeric="integer"
+                    android:gravity="center"
+                    />
+                <ImageView
+                    android:layout_width="20px"
+                    android:layout_height="2dp"
+                   android:layout_centerVertical="true"
+                   android:background="@color/my_tip_linecolor"
+                   android:layout_marginLeft="426px"
+                    android:layout_marginRight="22px"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginRight="10px"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="17px"
+                android:background="@drawable/publish_purchaseinfo_bg"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishi_usedinfo_chuchangriqi"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30px"
+                    />
+                <include layout="@layout/publishi_used_line"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ></include>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishi_usedinfo_year"
+                    android:textColor="@color/publishdesignrequirement_et_text"
+                    android:textSize="@dimen/textsize16"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="191px"
+                    />
+
+                <EditText
+                    android:id="@+id/publishi_used_year"
+                    android:layout_width="154px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="211px"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:paddingLeft="10px"
+                    android:padding="16px"
+                    android:gravity="center"
+                    android:numeric="integer"
+                    />
+                <EditText
+                    android:id="@+id/publishi_used_month"
+                    android:layout_width="154px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="388px"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:paddingLeft="10px"
+                    android:padding="16px"
+                    android:gravity="center"
+                    android:numeric="integer"
+                    />
+                <EditText
+                    android:id="@+id/publishi_used_day"
+                    android:layout_width="154px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="570px"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:paddingLeft="10px"
+                    android:padding="16px"
+                    android:numeric="integer"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishi_usedinfo_yue"
+                    android:textColor="@color/publishdesignrequirement_et_text"
+                    android:textSize="@dimen/textsize16"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="364px"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishi_usedinfo_day"
+                    android:textColor="@color/publishdesignrequirement_et_text"
+                    android:textSize="@dimen/textsize14"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="545px"
+                    />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginRight="10px"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="17px"
+                android:background="@drawable/publish_purchaseinfo_bg"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishi_usedinfo_pinpaiming"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30px"
+                    />
+                <include layout="@layout/publishi_used_line"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ></include>
+                <EditText
+                    android:id="@+id/publishi_used_pinpaiming"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="162px"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:paddingLeft="10px"
+                    android:layout_centerVertical="true"
+                    android:padding="16px"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginRight="10px"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="17px"
+                android:background="@drawable/publish_purchaseinfo_bg"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishi_usedinfo_chanpinsuozaidi"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30px"
+                    />
+                <include layout="@layout/publishi_used_line"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ></include>
+                <EditText
+                    android:id="@+id/publishi_used_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="162px"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize16"
+                    android:paddingLeft="10px"
+                    android:layout_centerVertical="true"
+                    android:padding="16px"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="80px"
+                android:layout_marginRight="10px"
+                android:layout_marginLeft="10px"
+                android:layout_marginTop="17px"
+
+                >
+
+                <TextView
+                    android:layout_width="157px"
+                    android:layout_height="match_parent"
+                    android:text="@string/publishi_usedinfo_shouhuofuwu"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize14"
+                    android:layout_centerVertical="true"
+
+                    android:gravity="center"
+                    android:background="@drawable/publish_purchaseinfo_bg"
+                    />
+
+                <TextView
+                    android:id="@+id/publishi_used_yes"
+                    android:layout_width="270px"
+                    android:layout_height="match_parent"
+                    android:text="@string/publishi_usedinfo_yes"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize14"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="179px"
+                    android:gravity="center"
+                    android:background="@drawable/publish_purchaseinfo_bg"
+                    />
+
+                <TextView
+                    android:id="@+id/publishi_used_no"
+                    android:layout_width="270px"
+                    android:layout_height="match_parent"
+                    android:text="@string/publishi_usedinfo_no"
+                    android:textColor="@color/textcolorback"
+                    android:textSize="@dimen/textsize14"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="460px"
+                    android:gravity="center"
+                    android:background="@drawable/publish_purchaseinfo_bg"
+                    />
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36px"
+                android:layout_marginTop="36px"
+                android:text="@string/publishdesignrequiremwet_tupian"
+                android:textColor="@color/publishdesignrequirement_et_text" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36px"
+                android:layout_marginRight="28px"
+                android:layout_marginTop="24px" >
+                <ImageView
+                    android:id="@+id/publishi_used_img1"
+                    android:layout_width="0dp"
+                    android:layout_height="184px"
+                    android:layout_marginRight="46px"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/purchase" />
+                <ImageView
+                    android:id="@+id/publishi_used_img2"
+                    android:layout_width="0dp"
+                    android:layout_height="184px"
+                    android:layout_marginRight="48px"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/purchase"
+                    android:visibility="invisible"/>
+                <ImageView
+                    android:id="@+id/publishi_used_img3"
+                    android:layout_width="0dp"
+                    android:layout_height="184px"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/purchase"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="36px"
+                android:layout_marginTop="60px"
+                android:text="@string/publishdesignrequiremwet_yuyin"
+                android:textColor="@color/publishdesignrequirement_et_text" />
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="64px"
+                android:orientation="horizontal"
+                 android:layout_marginBottom="50px"
+                android:layout_marginLeft="36px"
+                android:layout_marginTop="20px">
+            <ImageView
+                android:id="@+id/publishi_used_recorder"
+                android:layout_width="153px"
+                android:layout_height="66px"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icon_voice" />
+            <ImageView
+                android:id="@+id/publishi_used_recorder_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0”"
+                android:textSize="@dimen/textsize12"
+                android:src="@mipmap/icon_red"
+                android:textColor="@color/publishdesignrequirement_et_luyin"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_marginLeft="16px"
+                />
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/publishpurchase_kanguofabu"
+               
+                android:textColor="@color/publishpurchase_textcolor"
+                android:textSize="26px"
+                android:layout_marginLeft="20dp"/>
+            
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/publishpurchase_lianxitishi"
+                android:textSize="@dimen/textsize14"
+                android:textColor="@color/publishdesignrequirement_et_text"
+                
+                android:layout_marginLeft="10px"/>
+            
+             </LinearLayout>
+             
+            
+             <TextView
+                 android:id="@+id/publishi_used_directorsetting"
+                 android:layout_width="160px"
+                 android:layout_height="64px"
+                 android:text="@string/publishpurchase_dingxiangshezhi"
+                 android:textColor="@color/textcolorwite"
+                 android:textSize="@dimen/textsize14"
+                 android:background="@drawable/publish_purchase_btn_two"
+                 android:layout_marginLeft="40px"
+                 android:layout_marginTop="20px"
+                 android:gravity="center"/>
+            <TextView
+                android:id="@+id/publishi_used_directorsettingtext"
+                android:layout_width="match_parent"
+                android:layout_height="64px"
+                android:textColor="@color/textcolorback"
+                android:textSize="@dimen/textsize14"
+                android:layout_marginLeft="40px"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="80px"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/publishi_used_send"
+        android:layout_width="match_parent"
+        android:layout_height="94px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/back_bg"
+        android:gravity="center"
+        android:text="@string/publishdesignrequiremwet_fasong"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18"
+        />
+</RelativeLayout>

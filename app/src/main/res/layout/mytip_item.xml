@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="183px"
+    android:background="@color/my_tip_bg"
+   >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30px"
+        android:src="@mipmap/secretary_smallman"
+        android:scaleType="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="毕昇美男子系列"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize22"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="50px"
+        />
+    <TextView
+        android:layout_width="360px"
+        android:layout_height="wrap_content"
+        android:text="印刷高手，十八般印已样样精通00000000000000000000000000000000000000000000000000000000000000000000000000000"
+        android:textColor="@color/my_tip_linecolor"
+        android:textSize="@dimen/textsize18"
+        android:layout_marginLeft="190px"
+        android:layout_marginTop="105px"
+        android:ellipsize="end"
+       android:singleLine="true"
+
+        />
+
+    <TextView
+        android:layout_width="110px"
+        android:layout_height="46px"
+        android:text="@string/mytip_shanchu"
+        android:layout_marginTop="66px"
+        android:layout_marginLeft="592px"
+        android:textColor="@color/my_tip_linecolor"
+        android:gravity="center"
+        android:background="@drawable/mytip_btn_bg"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="57dp" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/line" />
+
+            <EditText
+                android:layout_width="wrap_content"
+             
+                android:layout_height="38dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/icon_account"
+                android:gravity="center_vertical"
+                android:hint="@string/register_phone"
+                android:singleLine="true"
+                android:textColor="@color/register_et"
+                android:textColorHint="@color/register_et"
+                android:textSize="@dimen/textsize14" 
+                android:drawablePadding="10dp"/>
+
+            <include layout="@layout/line" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="0dp"
+           android:layout_weight="1"
+            
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:background="@color/textcoloryellow"
+            android:gravity="center"
+         
+            android:text="@string/register_getyanzhenma"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize18" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/icon_verification_code"
+            android:gravity="center_vertical"
+            android:hint="@string/register_yanzhengma"
+            android:singleLine="true"
+            android:textColor="@color/register_et"
+            android:textColorHint="@color/register_et"
+            android:textSize="@dimen/textsize14" 
+            android:drawablePadding="10dp"/>
+
+        <include layout="@layout/line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/icon_password"
+            android:gravity="center_vertical"
+            android:hint="@string/register_miama"
+            android:singleLine="true"
+            android:textColor="@color/register_et"
+            android:textColorHint="@color/register_et"
+            android:textSize="@dimen/textsize14" 
+            android:drawablePadding="10dp"/>
+
+        <include layout="@layout/line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon" 
+            android:background="#2B2B2B"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/login_bg_selector"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textSize="@dimen/textsize18"
+            android:textColor="@color/textcoloryellow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_tishi"
+            android:textColor="@color/register_et" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="@string/symbol"
+            android:textColor="@color/textcoloryellow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol"
+            android:textColor="@color/textcoloryellow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:text="@string/register_content"
+            android:textColor="@color/textcoloryellow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol_two"
+            android:textColor="@color/textcoloryellow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol_two"
+            android:textColor="@color/textcoloryellow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="33dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_wetcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/register_weixin"
+                android:textColor="@color/register_et"
+                android:textSize="@dimen/textsize14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_qq" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/register_QQ"
+                android:textColor="@color/register_et"
+                android:textSize="@dimen/textsize14" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

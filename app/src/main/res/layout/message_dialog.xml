@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffff" >
+
+     <EditText
+         android:id="@+id/message_dialog_et"
+         android:layout_width="match_parent"
+         android:layout_height="300px"
+         android:hint="@string/detailes_liuyan"
+         android:textColor="@color/textcolorback"
+         android:textColorHint="@color/typograpter_textdefault"
+         android:gravity="top"
+         android:paddingTop="20px"
+         android:paddingLeft="20px"
+         android:background="@null"
+         android:textSize="@dimen/textsize18"
+         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/main_me_bg"></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/message_dialog_cancle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80px"
+            android:gravity="center"
+            android:text="@string/quxiao"
+            android:textColor="@color/textcoloryellow"
+            android:background="@color/typograpter_radiogroup"/>
+        <TextView
+            android:id="@+id/message_dialog_Send"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80px"
+            android:gravity="center"
+            android:text="@string/fasong"
+            android:textColor="@color/textcolorback"
+            android:background="@color/textcoloryellow"/>
+</LinearLayout>
+</LinearLayout>

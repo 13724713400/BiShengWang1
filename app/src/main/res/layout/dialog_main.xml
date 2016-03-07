@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/touming"
+   
+    >
+  
+    <ImageView 
+    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dialog_zhaokaotianxia"/>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+       >
+        <ImageView
+            android:id="@+id/publish_purchase_info"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dialog_shuai"/>
+        
+          <ImageView
+              android:id="@+id/publishi_gongying_info"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dialog_qiu"/>
+        
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_marginTop="24px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingLeft="40px">
+         <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubu"
+             android:textSize="@dimen/textsize18"
+            />
+         
+          <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubucagouxinxi"
+              android:textSize="@dimen/textsize18"
+            />
+        
+         </LinearLayout>
+          
+        <ImageView
+            android:id="@+id/main_dialog_diss_img"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/cha"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+           />
+        
+         <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingRight="40px">
+         <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubu"
+             android:textSize="@dimen/textsize18"
+            />
+         
+          <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_gonfyingxinxi"
+              android:textSize="@dimen/textsize18"
+            />
+        
+         </LinearLayout>
+        
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34px"
+       >
+        
+        <ImageView
+            android:id="@+id/publishi_used_info"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dialog_jiu"/>
+        
+          <ImageView
+              android:id="@+id/publish_invite_info"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/dialog_zhi"/>
+        
+        
+    </LinearLayout>
+    
+     
+      <LinearLayout 
+        android:layout_marginTop="24px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+        
+        <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+           >
+         <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubu"
+             android:textSize="@dimen/textsize18"
+            />
+          <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_ershouxinxi"
+              android:textSize="@dimen/textsize18"
+            />
+         </LinearLayout>
+         <LinearLayout 
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+           >
+         <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_fubu"
+             android:textSize="@dimen/textsize18"
+            />
+         
+          <TextView 
+            android:layout_width="wrap_content"
+            android:textColor="@color/textcolorwite"
+            android:layout_height="wrap_content"
+            android:text="@string/zhaogaotianxia_qiuzhixinxi"
+              android:textSize="@dimen/textsize18"
+            />
+        
+         </LinearLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

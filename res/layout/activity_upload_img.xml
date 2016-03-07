@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="57dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/loginavatar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="18dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_uploading_img"
+                android:textColor="@color/register_et"
+                android:textSize="@dimen/textsize14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/login_uploading_img_two"
+                android:textColor="@color/register_et"
+                android:textSize="@dimen/textsize14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical" >
+
+        <include layout="@layout/line" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/icon_name"
+            android:gravity="center_vertical"
+            android:hint="@string/login_uploading_Name"
+            android:singleLine="true"
+            android:textColor="@color/register_et"
+            android:textColorHint="@color/register_et"
+            android:textSize="@dimen/textsize14" 
+            android:drawablePadding="10dp"/>
+
+        <include layout="@layout/line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/icon_date"
+            android:gravity="center_vertical"
+            android:hint="@string/login_uploading_age"
+            android:singleLine="true"
+            android:textColor="@color/register_et"
+            android:textColorHint="@color/register_et"
+            android:textSize="@dimen/textsize14" 
+            android:drawablePadding="10dp"/>
+
+        <include layout="@layout/line" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:text="@string/login_uploading_nan"
+            android:textColor="@color/register_et" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:text="@string/login_uploading_nv"
+            android:textColor="@color/register_et" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="69dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon"
+            android:background="#2B2B2B" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+             android:background="@drawable/login_bg_selector"
+            android:gravity="center"
+            android:text="@string/login_uploading_wangcheng"
+            android:textColor="@color/textcoloryellow" 
+            android:textSize="@dimen/textsize18"/>
+    </LinearLayout>
+
+</LinearLayout>

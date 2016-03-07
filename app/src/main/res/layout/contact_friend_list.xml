@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:layout_width="130px"
+            android:id="@+id/ll"
+            android:background="@drawable/pas"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="40dip"
+                android:layout_height="40dip"
+                android:id="@+id/imag"
+                android:layout_gravity="center"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/login_logo" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_toRightOf="@+id/ll"
+    android:gravity="center_vertical|left"
+
+    android:layout_toLeftOf="@+id/textView4"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:id="@+id/textView"
+            android:layout_marginLeft="15px"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|left"
+            android:textColor="@color/explore_textcontent"
+
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textsize22"
+
+
+          />
+</LinearLayout>
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:id="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:background="@drawable/line"
+        />
+        <LinearLayout
+            android:layout_width="50dp"
+         android:layout_marginRight="10px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageView3"
+            android:layout_margin="10px"
+            android:gravity="center"
+            android:background="@drawable/pas"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="60px"
+                android:layout_gravity="center"
+                android:layout_height="60px"
+
+                android:src="@mipmap/phone"
+
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+           android:layout_alignParentBottom="true"
+            android:background="@color/main_me_textline"
+            android:layout_marginLeft="140px"/>
+</RelativeLayout>
+</RelativeLayout>

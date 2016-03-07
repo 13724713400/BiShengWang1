@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/typograpter_bg">
+    
+    <RelativeLayout 
+       
+       android:layout_width="match_parent"
+       android:layout_height="48dp"
+       android:background="@color/textcoloryellow" >
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/typographer_dizhi"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textsize14"
+            android:gravity="center"
+            android:layout_marginLeft="23dp"
+            />  
+          <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/typographer_titils"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize18"
+            />
+          <ImageView 
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:src="@drawable/yudian"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="20dp"/>
+        
+   </RelativeLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="39dp"
+       android:orientation="horizontal"
+       android:background="@color/typograpter_radiogroup">
+       
+       <LinearLayout 
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="match_parent"
+           android:gravity="center">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text="@string/typographer_paixu"
+             android:textSize="@dimen/textsize14"
+             android:textColor="@color/textcoloryellow"
+             android:gravity="center"/>  
+           <ImageView 
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:src="@drawable/icon_comprehensive_off"
+               android:layout_marginLeft="5dp"/>
+           
+       </LinearLayout>
+       
+       <LinearLayout 
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="match_parent"
+           android:gravity="center">
+         <TextView 
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:text="@string/typographer_suaixuan"
+             android:textSize="@dimen/textsize14"
+             android:textColor="@color/textcoloryellow"
+             android:gravity="center"/>  
+           <ImageView 
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:src="@drawable/icon_screening_off"
+               android:layout_marginLeft="5dp"/>
+           
+       </LinearLayout>
+       
+       <RelativeLayout 
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="match_parent"
+         >
+           
+           <ImageView 
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:src="@drawable/list2"
+               android:layout_alignParentRight="true"
+               android:paddingRight="20dp"
+              />   
+       </RelativeLayout>
+   </LinearLayout>
+   
+   <ListView 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:divider="@color/typograpter_bg"
+       android:dividerHeight="8dp"
+       android:fastScrollEnabled="true"
+       android:layout_marginTop="13dp"></ListView>
+
+</LinearLayout>

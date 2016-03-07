@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+        <ImageView
+            android:id="@+id/sendmsg_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/btn_arrow_back"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            />
+        <TextView
+            android:textColor="@color/textcolorback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detailes_sixin"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize22"
+
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/yudian"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"
+            />
+
+    </RelativeLayout>
+
+            <EditText
+                android:layout_below="@+id/detailes_titles"
+                android:id="@+id/sendmsg_editText"
+                android:layout_width="match_parent"
+                android:layout_height="320px"
+                android:layout_marginLeft="32px"
+                android:layout_marginRight="32px"
+                android:layout_marginTop="24px"
+                android:background="@drawable/bg"
+                android:gravity="top"
+                android:hint="亲！留下句话吧！"
+                android:paddingLeft="12dp"
+                android:paddingTop="12dp"
+                android:textColor="#323232"
+                android:textColorHint="#999" />
+
+
+    <Button
+        android:id="@+id/sendmsg_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/textcoloryellow"
+        android:text="提交"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18"
+        />
+
+
+</RelativeLayout>

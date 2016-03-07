@@ -1,0 +1,269 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhushan.bishengwang.Fragment.Fragment_yins">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#ccc"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/cardview_light_background"
+                android:id="@+id/gohsi"
+                android:layout_marginTop="25px"
+                android:layout_height="100px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="公司名称"
+                    android:gravity="center"
+                    android:layout_marginLeft="35px"
+                    android:textSize="@dimen/textsize22"
+                    android:textColor="@color/bantouming"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/shejiao_text_birthday"
+                    android:gravity="left|center_vertical"
+                    android:layout_marginRight="15px"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/textsize16"
+                    android:textColor="@color/A2A3A3"
+                    android:layout_marginLeft="240px"
+                    android:text="国弘网络技术有限公司"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/cardview_light_background"
+                android:id="@+id/ll1"
+                android:layout_marginTop="1px"
+                android:layout_height="110px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="公司地址"
+                    android:gravity="center"
+                    android:layout_marginLeft="35px"
+                    android:textSize="@dimen/textsize22"
+                    android:textColor="@color/bantouming"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:layout_gravity="center"
+                    android:id="@+id/shejiao_text_personality"
+                    android:textSize="@dimen/textsize16"
+                    android:textColor="@color/A2A3A3"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:layout_marginRight="15px"
+                    android:layout_marginLeft="240px"
+                    android:text="这家伙很懒什么都没留下！"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/cardview_light_background"
+                android:layout_marginTop="25px"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="150px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="行业标签"
+                    android:gravity="center"
+                    android:layout_marginLeft="35px"
+                    android:textSize="@dimen/textsize22"
+                    android:textColor="@color/bantouming"
+                    android:layout_gravity="center"
+                    />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginLeft="230px"
+    android:layout_centerVertical="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:background="@drawable/yaun_red"
+            android:text="sdfsdsdfsdfdsf"
+            android:gravity="center"
+            android:layout_marginRight="15px"
+            android:paddingLeft="15px"
+            android:paddingRight="15px"
+            android:textColor="@color/linecolors"
+            android:layout_height="35px" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:background="@drawable/yaun_red"
+            android:text="sdfsdsdfsdfdsf"
+            android:gravity="center"
+
+            android:layout_marginRight="20dp"
+            android:paddingLeft="15px"
+            android:paddingRight="15px"
+            android:textColor="@color/linecolors"
+            android:layout_height="35px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:background="@drawable/yaun_red"
+        android:text="sdfsdsdfsdfdsf"
+        android:layout_marginTop="15px"
+        android:layout_below="@+id/ll2"
+        android:gravity="center"
+
+        android:layout_marginRight="20dp"
+        android:paddingLeft="15px"
+        android:paddingRight="15px"
+        android:textColor="@color/linecolors"
+        android:layout_height="35px" />
+
+
+
+</RelativeLayout>
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/main_me_myprivate"
+                android:layout_width="match_parent"
+                android:layout_height="120px"
+                android:layout_marginTop="25px"
+                android:gravity="center_vertical"
+                android:background="@drawable/main_me_selectortwo"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="开发者中心"
+                    android:gravity="center"
+                    android:layout_marginLeft="35px"
+                    android:textSize="@dimen/textsize22"
+                    android:textColor="@color/bantouming"
+                    android:layout_gravity="center"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="210px"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="90px"
+                        android:layout_height="90px"
+                        android:gravity="center"
+                        android:src="@mipmap/btn_logo_tmall"/>
+                    <ImageView
+                        android:layout_width="90px"
+                        android:layout_height="90px"
+                        android:gravity="center"
+                        android:layout_marginLeft="30px"
+                        android:src="@mipmap/btn_logo_jingdong"/>
+                    <ImageView
+                        android:layout_width="90px"
+                        android:layout_height="90px"
+                        android:layout_marginLeft="30px"
+                        android:gravity="center"
+                        android:src="@mipmap/btn_logo_1haodian"/>
+                    <ImageView
+                        android:layout_width="90px"
+                        android:layout_height="90px"
+                        android:layout_marginLeft="30px"
+                        android:gravity="center"
+                        android:src="@mipmap/btn_logo_alibaba"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25px"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_me_selectortwo"
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70px"
+        android:layout_marginTop="35px"
+        android:text="经营项目"
+        android:gravity="center"
+        android:id="@+id/jingying"
+        android:layout_marginLeft="35px"
+        android:textSize="@dimen/textsize22"
+        android:textColor="@color/bantouming"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/jingying"
+        android:text="品牌精装画册、高端包装礼盒印刷，烫金、品牌精装画册、高端包装礼盒印刷，烫金"
+        android:lines="2"
+        android:id="@+id/text2"
+        android:layout_marginLeft="35px"
+
+        android:textSize="@dimen/textsize16"
+        android:textColor="@color/A2A3A3"
+        android:ellipsize="end"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="25px"
+        android:layout_marginRight="15px"
+        android:layout_marginLeft="35px"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:layout_marginRight="15px"
+            android:layout_weight="1"
+            android:src="@mipmap/add"/>
+        <ImageView
+            android:layout_width="250px"
+            android:layout_weight="1"
+            android:layout_marginRight="15px"
+            android:layout_height="250px"
+            android:src="@mipmap/add"/>
+        <ImageView
+        android:layout_width="250px"
+            android:layout_weight="1"
+        android:layout_height="250px"
+        android:src="@mipmap/add"/>
+    </LinearLayout>
+</RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

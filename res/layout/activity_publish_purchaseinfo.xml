@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_me_bg" >
+
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/btn_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/publishdesignrequiremwet_titles"
+            android:textSize="@dimen/textsize18" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/yudian"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/publishdesign_btn"
+        android:layout_below="@+id/detailes_titles" 
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                
+                <TextView 
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishpurchase_moban"
+                    android:textSize="@dimen/textsize14"
+                    android:background="@drawable/publish_purchase_btn"
+                    android:textColor="@color/publishdesignrequirement_et_text"
+                    android:drawableRight="@drawable/btn_arrow_down"
+                    android:drawablePadding="5dp"
+                    android:padding="8dp"
+                    />
+                
+                 <TextView 
+                     android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/publishpurchase_fabushejixuqiu"
+                    android:textSize="@dimen/textsize14"
+                    android:background="@drawable/publish_purchase_btn_two"
+                    android:textColor="@color/textcolorwite"
+                    android:drawableRight="@drawable/btn_arrow_right"
+                    android:drawablePadding="5dp"
+                    android:padding="8dp"
+                    />
+                
+                
+            </RelativeLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/publish_purchaseinfo_bg"
+                android:hint="@string/publishpurchase_biaoti"
+                android:paddingLeft="14dp"
+                android:textColor="@color/textcolorback"
+                android:textSize="@dimen/textsize14" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="102dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+              android:background="@drawable/publish_purchaseinfo_bg"
+                android:gravity="top"
+                android:hint="@string/publishpurchase_neirong"
+                android:paddingLeft="14dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/textcolorback"
+                android:textSize="@dimen/textsize14" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/publishdesignrequiremwet_tupian"
+                android:textColor="@color/publishdesignrequirement_et_text" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="12dp" >
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="92dp"
+                    android:layout_marginRight="23dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/purchase" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="92dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/purchase" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="92dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/purchase" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/publishdesignrequiremwet_yuyin"
+                android:textColor="@color/publishdesignrequirement_et_text" />
+            <LinearLayout android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:orientation="horizontal"
+                 android:layout_marginBottom="25dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:src="@drawable/voice" />
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0”"
+                android:textSize="@dimen/textsize12"
+                android:textColor="@color/publishdesignrequirement_et_luyin"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_marginLeft="8dp"
+                />
+            
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/publishpurchase_kanguofabu"
+               
+                android:textColor="@color/publishpurchase_textcolor"
+                android:textSize="16sp"
+                android:layout_marginLeft="20dp"/>
+            
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/publishpurchase_lianxitishi"
+                android:textSize="@dimen/textsize14"
+                android:textColor="@color/publishdesignrequirement_et_text"
+                
+                android:layout_marginLeft="5dp"/>
+            
+             </LinearLayout>
+             
+            
+             <TextView 
+                 android:layout_width="79dp"
+                 android:layout_height="32dp"
+                 android:text="@string/publishpurchase_dingxiangshezhi"
+                 android:textColor="@color/textcolorwite"
+                 android:textSize="@dimen/textsize14"
+                 android:background="@drawable/publish_purchase_btn_two"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_marginBottom="40dp"
+                 android:gravity="center"/>
+             
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/publishdesign_btn"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/textcoloryellow"
+        android:gravity="center"
+        android:text="@string/publishdesignrequiremwet_fasong"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18" />
+</RelativeLayout>

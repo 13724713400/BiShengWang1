@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhushan.bishengwang">
+
+    <!-- 百度定位 -->
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 友盟统计权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".Iaplication.TBaplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/login_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyAppTheme">
+        <activity android:name=".activity.Activity_Login_Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Basetivity" />
+        <!-- 百度定位 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="55d19e9b67e58e1789001947" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Wandoujia" />
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="EYP84VCCmCAoTA1d7dLWAe7s" />
+        <meta-data
+            android:name="design_width"
+            android:value="720" />
+        <meta-data
+            android:name="design_height"
+            android:value="1280" />
+
+        <activity
+            android:name=".activity.FloatActivity"
+            android:label="@string/title_activity_float"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_Mypublish"
+            android:label="@string/title_activity_activity__mypublish"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_certificatedinfomation"
+            android:label="@string/title_activity_activity_certificatedinfomation"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_explore"
+            android:label="@string/title_activity_activity_explore"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_detailes"
+            android:label="@string/title_activity_activity_detailes"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_stylistprefecture"
+            android:label="@string/title_activity_activity_stylistprefecture"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_publishpurchaseinfo"
+            android:label="@string/title_activity_activity_publishpurchaseinfo"
+            android:theme="@style/MyAppTheme" />
+        <!-- 友盟 -->
+
+
+        <!--
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="569ef78e67e58e8b91002bb4" >
+        </meta-data>
+        -->
+
+
+        <!--
+            <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Wandoujia" />
+        -->
+        <!-- QQ平台授权 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID -->
+                <data android:scheme="tencent101291317" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        -->
+        <activity
+            android:name=".activity.Activity_Login"
+            android:label="@string/title_activity_activity__login"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_BaiduSerch"
+            android:label="@string/title_activity_activity__baidu_serch"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_MyTip"
+            android:label="@string/title_activity_activity__my_tip"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_main_mytip"
+            android:label="@string/title_activity_activity_main_mytip"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_SelftMytip"
+            android:label="@string/title_activity_activity__selft_mytip"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_selftmytip_detailes"
+            android:label="@string/title_activity_activity_selftmytip_detailes"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_publishinviteinfo"
+            android:label="@string/title_activity_activity_selftmytip_detailes"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_publishusedinfo"
+            android:label="@string/title_activity_activity_selftmytip_detailes"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.Activity_tmytiptuijian_detailes"
+            android:label="@string/title_activity_activity_selftmytip_detailes"
+            android:theme="@style/MyAppTheme" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activity.Activity_Register" />
+        <activity android:name=".activity.Activity_UploadHeaderImg" />
+        <activity android:name=".activity.Activity_MyMessage" />
+        <activity android:name=".activity.Activity_MyPhoto" />
+        <activity
+            android:name=".activity.Activity_PrivateLetter"
+            android:label="@string/title_activity_activity__private_letter"
+            android:theme="@style/MyAppTheme" />
+        <activity android:name=".activity.Activity_setting" />
+        <activity android:name=".activity.Activity_publishisuply" />
+        <activity android:name=".activity.Activity_ForgetPassword" />
+        <activity android:name=".activity.Activity_resetPassword" />
+        <activity android:name=".activity.Activity_feedBack" />
+        <activity android:name=".activity.Activity_UserGreetment" />
+        <activity android:name=".activity.Activity_seftMyTipTuijian" />
+        <activity android:name=".activity.Activity_DirectorSetting" />
+        <activity android:name=".activity.Activity_Imgdetails" />
+        <activity android:name=".activity.Activity_printingPeapleDetails" />
+        <!-- <activity android:name=".activity.Activity_commment" /> -->
+        <activity android:name=".activity.Activity_Comment" />
+        <activity android:name=".activity.Activity_sendmsg" />
+        <activity android:name=".activity.Activity_MyFocus" />
+        <activity android:name=".activity.Activity_HisAuthPeaple" />
+        <activity android:name=".activity.Activity_hisAuthTypeGrapher" />
+        <activity android:name=".activity.Activity_MyPhotoSelector" />
+        <activity android:name=".activity.GuidActivity" />
+        <activity android:name=".activity.Activity_HisPhoto" />
+        <activity android:name=".activity.Activity_province" />
+        <activity android:name=".activity.Activity_city" />
+        <activity android:name=".activity.Attention_i" />
+        <activity android:name=".activity.Group" />
+        <activity android:name=".activity.MyWatchlist" />
+        <activity android:name=".activity.About_Us" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>

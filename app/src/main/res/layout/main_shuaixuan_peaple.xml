@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="1083px"
+    android:background="@color/register_bg"
+    android:scrollbars="none">
+     <com.zhushan.bishengwang.Iselfview.MyExapndellistView
+        android:layout_marginTop="46px"
+        android:id="@+id/director_shuaixuan_peaple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40px"
+        android:layout_marginLeft="40px"
+        android:background="@color/register_bg"
+         android:groupIndicator="@null"
+         android:layout_alignParentTop="true"
+         android:layout_above="@+id/director_shuaixuan_peaplesure"
+        ></com.zhushan.bishengwang.Iselfview.MyExapndellistView>
+        <Button
+        android:id="@+id/director_shuaixuan_peaplesure"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="@string/director_setting_sure"
+        android:textColor="@color/register_bg"
+        android:textSize="@dimen/textsize22"
+        android:gravity="center"
+        android:background="@color/textcoloryellow"
+            android:layout_marginTop="46px"
+            android:layout_alignParentBottom="true"
+            ></Button>
+    </RelativeLayout>
+

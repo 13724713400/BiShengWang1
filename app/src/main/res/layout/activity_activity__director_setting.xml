@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/register_bg"
+   >
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/director_setting_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+        <ImageView
+            android:id="@+id/director_setting_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/btn_arrow_back"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            />
+        <TextView android:textColor="@color/textcolorback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/director_titles"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/textsize22"
+            />
+    </RelativeLayout>
+    <ExpandableListView
+   android:layout_marginTop="46px"
+        android:id="@+id/director_setting_el"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="37px"
+        android:layout_marginLeft="37px"
+        android:scrollbars="none"
+        android:groupIndicator="@null"
+        android:background="@color/register_bg"
+        ></ExpandableListView>
+</LinearLayout>
+    <Button
+        android:id="@+id/director_setting_sure"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="@string/director_setting_sure"
+        android:textColor="@color/register_bg"
+        android:textSize="@dimen/textsize22"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@color/textcoloryellow"
+        />
+
+</RelativeLayout>

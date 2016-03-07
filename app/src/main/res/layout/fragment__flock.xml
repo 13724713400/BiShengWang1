@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/typograpter_bg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:visibility="gone"
+        android:background="@color/textcoloryellow" >
+        <TextView
+            android:id="@+id/pringtingpeaple_city"
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+            android:text="@string/dongguan"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/textsize18"
+            android:gravity="center"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:textColor="@color/textcolorback"
+            />
+        <LinearLayout
+            android:layout_width="298px"
+            android:layout_height="62px"
+            android:layout_centerInParent="true"
+            android:background="@drawable/homepage_radiogroup_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/pringtingpeaple_girld_txt"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50px"
+                android:gravity="center"
+                android:text=""
+                android:visibility="invisible"
+                android:textSize="@dimen/textsize18"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/textcolorback" />
+            <TextView
+                android:id="@+id/pringtingpeaple_all_txt"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50px"
+                android:textSize="@dimen/textsize18"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/textcolorback" />
+            <TextView
+                android:id="@+id/pringtingpeaple_man_txt"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50px"
+                android:gravity="center"
+                android:textSize="@dimen/textsize18"
+                android:text=""
+                android:textColor="@color/textcolorback" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/printing_share"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/yudian"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40px"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:orientation="horizontal"
+        android:background="@color/main_me_bg">
+
+        <LinearLayout
+            android:id="@+id/pringtingpeaple_paixu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="100dip"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/pringtingpeaple_paixu_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/fuj"
+                android:textSize="@dimen/textsize18"
+                android:textColor="@color/mypublish_textcolor"
+                android:gravity="center"/>
+            <!--   <ImageView
+                       android:id="@+id/pringtingpeaple_paixu_img"
+                       android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+
+                       android:src="@mipmap/icon_comprehensive_off"
+                       android:layout_marginLeft="10px"/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pringtingpeaple_select"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="100dip"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/pringtingpeaple_select_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/typographer_suaixuan"
+                android:textSize="@dimen/textsize18"
+                android:textColor="@color/mypublish_textcolor"
+                android:gravity="center"/>
+            <ImageView
+                android:id="@+id/pringtingpeaple_select_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/btn_arrow_down"
+                android:layout_marginLeft="10px"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/pringtingpeaple_pailie"
+            android:layout_width="0dp"
+            android:layout_weight="0"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:id="@+id/pringtingpeaple_pailie_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/list2"
+                android:layout_alignParentRight="true"
+                android:paddingRight="40px"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#9000"
+        android:id="@+id/jubu"
+        android:visibility="gone"
+        android:layout_below="@+id/top"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="600px"
+
+            android:layout_marginTop="110dip"
+            android:paddingBottom="30dip"
+            android:layout_marginLeft="35dip"
+            android:background="@color/cardview_light_background"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/rl1"
+                android:background="@color/textcoloryellow"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dip"
+                    android:textColor="@color/cardview_dark_background"
+                    android:text="筛选"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/fork"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/fork"
+                    android:layout_alignParentRight="true"
+                    />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/rl1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/linecolors"
+                android:layout_marginTop="15dip"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="15dip"
+                android:textSize="16dp"
+                android:text="性别"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv2"
+                android:layout_marginLeft="1dp"
+                android:id="@+id/rg"
+                android:orientation="horizontal"
+                android:layout_alignLeft="@+id/tv2"
+                android:layout_alignStart="@+id/tv2">
+
+                <RadioButton
+                    android:layout_width="75dip"
+                    android:layout_height="30dip"
+                    android:text="全部"
+                    android:layout_marginRight="10dip"
+                    android:textColor="@drawable/screeningfont"
+                    android:button="@null"
+                    android:checked="true"
+                    android:id="@+id/all_txt"
+                    android:background="@drawable/filtrate"
+                    android:gravity="center"
+                    />
+
+                <RadioButton
+                    android:layout_width="75dip"
+                    android:layout_height="30dip"
+                    android:text="男"
+                    android:gravity="center"
+                    android:button="@null"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:textColor="@drawable/screeningfont"
+                    android:checked="false"
+                    android:background="@drawable/filtrate"
+                    android:id="@+id/man_txt"
+                    />
+
+                <RadioButton
+                    android:layout_width="75dip"
+                    android:layout_height="30dip"
+                    android:text="女"
+                    android:textColor="@drawable/screeningfont"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dip"
+                    android:button="@null"
+                    android:background="@drawable/filtrate"
+                    android:id="@+id/girld_txt"
+                    />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地区"
+                android:textSize="16dp"
+                android:layout_marginTop="15dip"
+                android:layout_marginBottom="5dip"
+                android:layout_marginLeft="15dip"
+                android:textColor="@color/linecolors"
+                android:layout_below="@+id/rg"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv3"
+                android:layout_marginLeft="1dp"
+                android:id="@+id/rg2"
+                android:orientation="horizontal"
+                android:layout_alignLeft="@+id/tv3"
+                android:layout_alignStart="@+id/tv3">
+
+                <RadioButton
+                    android:layout_width="75dip"
+                    android:layout_height="30dip"
+                    android:text="全部"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@drawable/screeningfont"
+                    android:button="@null"
+                    android:checked="true"
+                    android:id="@+id/radioButto3"
+                    android:background="@drawable/filtrate"
+                    android:gravity="center"
+                    />
+
+                <RadioButton
+                    android:layout_width="75dip"
+                    android:layout_height="30dip"
+                    android:text="同城"
+                    android:gravity="center"
+                    android:button="@null"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@drawable/screeningfont"
+                    android:checked="false"
+                    android:background="@drawable/filtrate"
+                    android:id="@+id/radioButton4"
+                    />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="100dp"
+                android:layout_height="27dip"
+                android:layout_below="@+id/rg2"
+                android:text="确定"
+                android:layout_marginTop="30dp"
+
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/bantouming"
+                android:background="@drawable/buttonsubject_2"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+<com.zhushan.bishengwang.Iselfview.MyListView
+    android:id="@+id/pringpeapl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</com.zhushan.bishengwang.Iselfview.MyListView>
+    <ListView
+        android:layout_width="wrap_content"
+        android:id="@+id/pringpeap"
+        android:layout_height="wrap_content"
+        android:background="#fafafa">
+
+    </ListView>
+
+    <!--<FrameLayout
+        android:id="@+id/fragment_pringtingpeaple_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>-->
+
+</LinearLayout>

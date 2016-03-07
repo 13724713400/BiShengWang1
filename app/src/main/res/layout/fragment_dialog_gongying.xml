@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dalog_fragment_bg"
+    android:layout_marginRight="40px"
+    android:layout_marginLeft="40px">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+           android:id="@+id/fragment_dialog_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/purple"
+            android:layout_marginLeft="40px"
+            android:layout_marginTop="40px"/>
+        <ImageView
+            android:id="@+id/fragment_dialog_gongying_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/cha"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40px"
+            android:layout_marginRight="40px"
+           />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/fragment_dialog_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_dialog_gongying_content"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="40px"
+        />
+
+    <TextView
+        android:id="@+id/goto_authentication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_dialog_gongying_renzheng"
+        android:textColor="@color/textcolorback"
+        android:textSize="@dimen/textsize18"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_marginTop="40px"
+        android:layout_gravity="right"
+        android:padding="16px"
+        android:gravity="center"
+        android:background="@drawable/main_me_line_bg"
+        android:layout_marginBottom="40px"
+        />
+</LinearLayout>

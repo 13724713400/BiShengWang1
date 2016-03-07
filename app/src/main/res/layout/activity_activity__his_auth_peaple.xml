@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_me_bg"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+        <ImageView
+            android:id="@+id/his_antentication_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="40px"
+            android:src="@mipmap/btn_arrow_back"
+            android:paddingRight="40px"
+            />
+        <TextView
+            android:id="@+id/his_antentication_titles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/taderenzhengziliao"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize22"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ren"
+                android:layout_marginTop="44px"
+                android:layout_marginLeft="34px"/>
+
+            <TextView
+                android:id="@+id/his_authentication_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已认证为印刷人"
+                android:textColor="@color/colorAccent"
+                android:layout_marginTop="44px"
+                android:layout_marginLeft="92px"
+                android:textSize="@dimen/textsize16"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fragment_authentication_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="34px"
+            android:layout_marginRight="42px"
+            android:layout_marginTop="32px"
+            >
+
+
+              <ImageView
+                android:id="@+id/his_authentication_img1"
+                android:layout_width="194px"
+                android:layout_height="194px"
+                android:scaleType="fitXY"
+                android:layout_marginTop="86px"
+                android:layout_marginLeft="86px"
+                  android:visibility="gone"
+                  android:background="@color/explore_textcontent"
+                />
+
+            <ImageView
+                android:id="@+id/his_authentication_img2"
+                android:layout_width="194px"
+                android:layout_height="194px"
+                android:scaleType="fitXY"
+                android:layout_marginTop="86px"
+                android:layout_marginLeft="360px"
+                android:visibility="gone"
+                android:background="@color/explore_textcontent"
+                />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/his_authentication_zhiwei"
+            android:layout_width="match_parent"
+            android:layout_height="71px"
+            android:hint="@string/certificatedinfomation_zhiwei"
+            android:layout_marginLeft="34px"
+            android:layout_marginRight="44px"
+            android:textColorHint="@color/mypublish_textcolor"
+            android:textSize="@dimen/textsize16"
+            android:paddingLeft="36px"
+            android:gravity="center_vertical"
+            android:textColor="@color/textcolorback"
+            android:layout_marginTop="34px"/>
+
+        <TextView
+            android:id="@+id/his_authentication_gongsiqunacheng"
+            android:layout_width="match_parent"
+            android:layout_height="71px"
+            android:hint="@string/certificatedinfomation_gongsi"
+            android:layout_marginLeft="34px"
+            android:layout_marginRight="44px"
+            android:textColorHint="@color/mypublish_textcolor"
+            android:textSize="@dimen/textsize16"
+            android:paddingLeft="36px"
+            android:gravity="center_vertical"
+            android:textColor="@color/textcolorback"
+            android:layout_marginTop="20px"/>
+
+        <TextView
+            android:id="@+id/his_authentication_address"
+            android:layout_width="match_parent"
+            android:layout_height="71px"
+            android:hint="@string/certificatedinfomation_gongsidizhi"
+            android:layout_marginLeft="34px"
+            android:layout_marginRight="44px"
+            android:textColorHint="@color/mypublish_textcolor"
+            android:textSize="@dimen/textsize16"
+            android:paddingLeft="36px"
+            android:gravity="center_vertical"
+            android:textColor="@color/textcolorback"
+            android:layout_marginTop="20px"/>
+        <TextView
+            android:id="@+id/fragment_authentication_biaoqiantext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolorback"
+            android:layout_marginLeft="36px"
+            android:layout_marginTop="20px"
+            android:textSize="@dimen/textsize16"/>
+    </LinearLayout>
+</LinearLayout>

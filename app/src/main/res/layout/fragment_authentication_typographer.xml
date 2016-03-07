@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_me_bg"
+    android:scrollbars="none">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44px"
+        android:layout_marginLeft="34px"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/shang"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_marginLeft="59px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/typograpter_text"
+            android:text="@string/certificatedinfomation_yinshuashang"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textsize14"/>
+    </RelativeLayout>
+<!--
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="366px"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="42px"
+        android:layout_marginTop="32px"
+        android:background="@drawable/main_me_line_bg"
+        >
+        <TextView
+            android:id="@+id/fragment_authentication_typegrapher_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/certificatedinfomation_tianjiatupian"
+            android:textSize="@dimen/textsize14"
+            android:textColor="@color/mypublish_textcolor"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="203px"
+            />
+
+        <TextView
+            android:id="@+id/fragment_authentication_typegrapher_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/certificatedinfomation_zhengmian"
+            android:textSize="@dimen/textsize14"
+            android:textColor="@color/mypublish_textcolor"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="223px"
+            />
+
+        <ImageView
+            android:id="@+id/fragment_authentication_typegrapher_img1"
+            android:layout_width="194px"
+            android:layout_height="194px"
+            android:scaleType="fitXY"
+            android:layout_marginTop="86px"
+            android:layout_marginLeft="86px"
+            android:src="@mipmap/purchase"
+            />
+
+        <ImageView
+            android:id="@+id/fragment_authentication_typegrapher_img2"
+            android:layout_width="194px"
+            android:layout_height="194px"
+            android:src="@mipmap/purchase"
+            android:scaleType="fitXY"
+            android:layout_marginTop="86px"
+            android:layout_marginLeft="360px"
+            />
+
+
+    </RelativeLayout>
+-->
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/fragment_authentication_typegrapher_rltwo"
+        android:layout_width="match_parent"
+        android:layout_height="366px"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="42px"
+        android:layout_marginTop="28px"
+        android:background="@drawable/main_me_line_bg"
+        >
+        <TextView
+            android:id="@+id/fragment_authentication_typegrapher_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/certificatedinfomation_yingyezhizhao"
+            android:textSize="@dimen/textsize14"
+            android:textColor="@color/mypublish_textcolor"
+            android:layout_marginTop="139px"
+            android:layout_marginLeft="203px"
+            />
+        <ImageView
+            android:id="@+id/fragment_authentication_typegrapher_yingyezhizhao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="58px"
+        android:layout_marginLeft="34px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/typograpter_text"
+        android:text="@string/certificatedinfomation_tupiaheshipin"/>
+
+    <LinearLayout
+        android:layout_marginTop="29px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="44px">
+        <ImageView
+            android:id="@+id/fragment_authentication_typegrapher_img3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="194px"
+            android:src="@mipmap/purchase"
+            android:scaleType="fitXY"
+            android:layout_marginRight="5px"
+            />
+
+        <ImageView
+            android:id="@+id/fragment_authentication_typegrapher_img4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="194px"
+            android:src="@mipmap/purchase"
+            android:scaleType="fitXY"
+           android:layout_marginLeft="5px"
+            android:layout_marginRight="5px"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/fragment_authentication_typegrapher_img5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="194px"
+            android:src="@mipmap/purchase"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="5px"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/fragment_authentication_typegrapher_gongsiquanceng"
+        android:layout_width="match_parent"
+        android:layout_height="71px"
+        android:hint="@string/certificatedinfomation_gongsi"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="44px"
+        android:textColorHint="@color/mypublish_textcolor"
+        android:textSize="@dimen/textsize16"
+        android:paddingLeft="36px"
+        android:textColor="@color/mypublish_textcolor"
+        android:background="@drawable/main_me_line_bg"
+        android:layout_marginTop="20px"/>
+
+    <EditText
+        android:id="@+id/fragment_authentication_typegrapher_address"
+        android:layout_width="match_parent"
+        android:layout_height="71px"
+        android:hint="@string/certificatedinfomation_gongsidizhi"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="44px"
+        android:textColorHint="@color/mypublish_textcolor"
+        android:textSize="@dimen/textsize16"
+        android:paddingLeft="36px"
+        android:textColor="@color/mypublish_textcolor"
+        android:background="@drawable/main_me_line_bg"
+        android:layout_marginTop="20px"/>
+    <EditText
+        android:id="@+id/fragment_authentication_typegrapher_jianjie"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:hint="@string/certificatedinfomation_gongsijianjie"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="44px"
+        android:textColorHint="@color/mypublish_textcolor"
+        android:textSize="@dimen/textsize16"
+        android:paddingLeft="36px"
+        android:gravity="top"
+        android:paddingTop="20px"
+        android:textColor="@color/mypublish_textcolor"
+        android:background="@drawable/main_me_line_bg"
+        android:layout_marginTop="44px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34px"
+        android:layout_marginTop="42px"
+        android:text="@string/certificatedinfomation_tinajhaoma"
+        android:textColor="@color/typograpter_text"/>
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="42px"
+        android:layout_marginTop="50px">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_add"
+            android:layout_marginTop="18px"
+
+            />
+        <TextView
+
+            android:layout_width="150px"
+            android:layout_height="70px"
+            android:gravity="center"
+            android:textColor="@color/mypublish_textcolor"
+            android:textSize="@dimen/textsize16"
+            android:text="@string/certificatedinfomation_quhao"
+            android:background="@drawable/main_me_line_bg"
+            android:layout_marginLeft="66px"
+            android:padding="16px"
+            android:paddingLeft="32px"
+            android:paddingRight="32px"
+            />
+        <EditText
+            android:id="@+id/fragment_authentication_typegrapher_quhao"
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:textSize="@dimen/textsize14"
+            android:paddingLeft="34px"
+            android:layout_marginLeft="247px"
+            android:textColor="@color/mypublish_textcolor"
+            android:background="@drawable/main_me_line_bg"
+            />
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/fragment_authentication_typegrapher_biaoqian"
+        android:layout_width="wrap_content"
+        android:layout_height="70px"
+        android:hint="@string/certificatedinfomation_hangyebiaoqian"
+        android:gravity="center"
+        android:layout_marginLeft="34px"
+        android:textColorHint="@color/mypublish_textcolor"
+        android:textSize="@dimen/textsize16"
+        android:paddingLeft="34px"
+        android:paddingRight="36px"
+        android:textColor="@color/mypublish_textcolor"
+        android:background="@drawable/main_me_line_bg"
+        android:layout_marginTop="32px"
+        android:drawableRight="@mipmap/btn_arrow_down"
+        android:drawablePadding="15px"></TextView>
+
+    <TextView
+        android:id="@+id/fragment_authentication_typegrapher_biaoqiantext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize14"
+        android:layout_marginLeft="34px"
+        android:layout_marginTop="32px"
+        android:textColor="@color/textcolorback"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="42px"
+        android:layout_marginTop="54px"
+      >
+        <TextView
+            android:id="@+id/fragment_authentication_typegrapher_reset"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70px"
+            android:text="@string/certificatedinfomation_chongzhi"
+            android:textColor="@color/textcoloryellow"
+            android:background="@drawable/certificated_btn_bg"
+            android:gravity="center"
+            android:textSize="@dimen/textsize18"
+            android:layout_marginRight="16px"/>
+
+        <TextView
+            android:id="@+id/fragment_authentication_typegrapher_submit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="70px"
+            android:text="@string/certificatedinfomation_tijiaoshenhe"
+            android:textColor="@color/textcolorback"
+            android:background="@drawable/certificated_btn_bgtwo"
+            android:gravity="center"
+            android:layout_marginLeft="16px"
+            android:textSize="@dimen/textsize18"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragment_authentication_typegrapher_shenhe"
+        android:layout_marginTop="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize18"
+        android:gravity="center"
+        android:layout_marginBottom="155px"/>
+    </LinearLayout>
+</ScrollView>

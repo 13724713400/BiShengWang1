@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg" >
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="57dp"
+        android:orientation="vertical" >
+
+      <include layout="@layout/line" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/icon_account"
+            android:gravity="center_vertical"
+            android:hint="@string/register_phone"
+            android:singleLine="true"
+            android:textColor="@color/register_et"
+            android:textColorHint="@color/register_et"
+            android:textSize="@dimen/textsize14" 
+            android:drawableRight="@drawable/delete"
+          android:drawablePadding="10dp"
+           />
+        <include layout="@layout/line" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical" >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/icon_password"
+            android:gravity="center_vertical"
+            android:hint="@string/Login_mima"
+            android:singleLine="true"
+            android:textColor="@color/register_et"
+            android:textColorHint="@color/register_et"
+            android:textSize="@dimen/textsize14" 
+            android:drawablePadding="10dp"/>
+        <include layout="@layout/line" />
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="9dp"
+        android:orientation="horizontal" >
+        
+          <TextView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/register"
+              android:textColor="@color/textcoloryellow"
+              android:layout_marginRight="10dp"
+              />
+          <include 
+              android:layout_marginLeft="10dp"
+              layout="@layout/line_verture"/>
+          <TextView 
+               android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/Login_wangjimima"
+              android:textColor="@color/textcoloryellow"
+              />
+          <include 
+                android:layout_marginLeft="10dp"
+              layout="@layout/line_verture"/>
+          <TextView 
+                android:layout_marginLeft="10dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/Login_fankui"
+              android:textColor="@color/textcoloryellow"
+              />
+          
+    </LinearLayout>
+    
+      
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/icon" 
+            android:layout_gravity="center"
+            android:background="#2B2B2B"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="7dp"
+            android:background="@drawable/login_bg_selector"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/textcoloryellow" 
+            android:textSize="@dimen/textsize18"/>
+    </LinearLayout>
+
+ <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="57dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_wetcat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/register_weixin"
+                android:textColor="@color/register_et"
+                android:textSize="@dimen/textsize14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_qq" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/register_QQ"
+                android:textColor="@color/register_et"
+                android:textSize="@dimen/textsize14" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffff" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f0f0f0" >
+        </LinearLayout>
+        <TextView
+            android:id="@+id/recorder_starpplay"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="开始播放"
+            android:textColor="@color/textcolorback"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f0f0f0" >
+        </LinearLayout>
+        <TextView
+            android:id="@+id/recorder_stopplay"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="停止播放"
+            android:textColor="@color/textcolorback"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0" >
+    </LinearLayout>
+    <TextView
+        android:id="@+id/recorder_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="取消"
+        android:textColor="@color/textcolorback"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/recorder_showtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/publishdesignrequirement_et_luyin"
+        android:textSize="150px"
+        android:gravity="center"
+        android:clickable="false"
+        android:background="@color/touming"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

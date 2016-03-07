@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <ImageView
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="10dip"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/login_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:textColor="@color/explore_textcontent"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:textSize="28px"
+        android:layout_toRightOf="@+id/imageView2"
+
+        />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:id="@+id/yi_guanzhu"
+            android:text="已关注"
+            android:textColor="@color/typograpter_text"
+            android:background="@drawable/buttonsubject_2"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:id="@+id/textView3"
+            android:background="@drawable/line"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true"/>
+</RelativeLayout>
+</RelativeLayout>

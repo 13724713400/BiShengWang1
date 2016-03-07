@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/textcoloryellow">
+
+   <!-- <LinearLayout
+        android:id="@+id/tofriends"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:padding="32px"
+        android:background="@drawable/back_bg"
+       >
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:scaleType="fitXY"
+            android:src="@mipmap/qin"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yaoqingpengyou"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize18"
+            android:layout_marginLeft="15px"
+            />
+
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/share_text"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:padding="32px"
+        android:background="@drawable/back_bg"
+        >
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:scaleType="fitXY"
+            android:src="@mipmap/fenxaing"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/share"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize18"
+            android:layout_marginLeft="15px"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

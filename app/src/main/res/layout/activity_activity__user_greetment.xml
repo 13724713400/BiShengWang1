@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_me_bg"
+    android:orientation="vertical"
+   >
+    <RelativeLayout
+        android:id="@+id/detailes_titles"
+        android:layout_width="match_parent"
+        android:layout_height="124px"
+        android:layout_alignParentTop="true"
+        android:background="@color/textcoloryellow" >
+
+        <ImageView
+            android:id="@+id/user_greetment_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="40px"
+            android:paddingRight="40px"
+            android:src="@mipmap/btn_arrow_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/user_greement"
+            android:textColor="@color/textcolorback"
+            android:textSize="@dimen/textsize22" />
+    </RelativeLayout>
+    <WebView
+        android:layout_marginTop="20px"
+        android:id="@+id/user_greetment_webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/publish_purchaseinfo_bg"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px">
+    </WebView>
+</LinearLayout>

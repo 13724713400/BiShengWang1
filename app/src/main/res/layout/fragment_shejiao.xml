@@ -1,0 +1,354 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zhushan.bishengwang.Fragment.Fragment_shejiao">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/cardview_light_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="25px"
+            android:layout_below="@+id/ll1"
+            android:background="@color/linecolors"
+            />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@color/cardview_light_background"
+    android:id="@+id/ll1"
+    android:layout_height="110px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="个性签名"
+        android:gravity="center"
+      android:layout_marginLeft="35px"
+        android:textSize="@dimen/textsize22"
+        android:textColor="@color/bantouming"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left|center_vertical"
+        android:layout_gravity="center"
+        android:id="@+id/shejiao_text_personality"
+        android:textSize="@dimen/textsize16"
+        android:textColor="@color/A2A3A3"
+        android:lines="2"
+        android:ellipsize="end"
+        android:layout_marginRight="15px"
+        android:layout_marginLeft="210px"
+        android:text="这家伙很懒什么都没留下！"/>
+</RelativeLayout>
+  <TextView
+      android:id="@+id/line1"
+      android:layout_width="match_parent"
+      android:layout_height="25px"
+        android:layout_below="@+id/ll1"
+      android:background="@color/linecolors"
+      />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_below="@+id/line1"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
+
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="生日"
+            android:gravity="center"
+            android:layout_marginLeft="35px"
+            android:textSize="@dimen/textsize22"
+            android:textColor="@color/bantouming"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/shejiao_text_birthday"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="15px"
+            android:layout_gravity="center"
+            android:textSize="@dimen/textsize16"
+            android:textColor="@color/A2A3A3"
+            android:layout_marginLeft="210px"
+            android:text="1999-5-5"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:background="@color/linecolors"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
+
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="星座"
+            android:gravity="center"
+            android:layout_marginLeft="35px"
+            android:textSize="@dimen/textsize22"
+            android:textColor="@color/bantouming"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="15px"
+            android:id="@+id/shejiao_text_constellation"
+            android:layout_gravity="center"
+            android:textSize="@dimen/textsize16"
+            android:textColor="@color/A2A3A3"
+            android:layout_marginLeft="210px"
+            android:text="处女座"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:background="@color/linecolors"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
+
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="职业"
+            android:gravity="center"
+            android:layout_marginLeft="35px"
+            android:textSize="@dimen/textsize22"
+            android:textColor="@color/bantouming"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="15px"
+            android:id="@+id/shejiao_text_profession"
+            android:layout_gravity="center"
+            android:textSize="@dimen/textsize16"
+            android:textColor="@color/A2A3A3"
+            android:layout_marginLeft="210px"
+            android:text="经理"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:background="@color/linecolors"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
+
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="地区"
+            android:gravity="center"
+            android:layout_marginLeft="35px"
+            android:textSize="@dimen/textsize22"
+            android:textColor="@color/bantouming"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="15px"
+            android:layout_gravity="center"
+            android:id="@+id/shejiao_Text_region"
+            android:textSize="@dimen/textsize16"
+            android:textColor="@color/A2A3A3"
+            android:layout_marginLeft="210px"
+            android:text="广东省东莞虎门镇"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:background="@color/linecolors"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
+
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="家乡"
+            android:gravity="center"
+            android:layout_marginLeft="35px"
+            android:textSize="@dimen/textsize22"
+            android:textColor="@color/bantouming"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="15px"
+            android:layout_gravity="center"
+            android:id="@+id/shejiao_text_hometown"
+            android:textSize="@dimen/textsize16"
+            android:textColor="@color/A2A3A3"
+            android:layout_marginLeft="210px"
+            android:text="广东省东莞虎门镇"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:background="@color/linecolors"/>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:background="@color/cardview_light_background"
+
+    android:layout_height="100px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="感情状态"
+        android:gravity="center"
+        android:layout_marginLeft="35px"
+        android:textSize="@dimen/textsize22"
+        android:textColor="@color/bantouming"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left|center_vertical"
+        android:layout_marginRight="15px"
+        android:layout_gravity="center"
+        android:id="@+id/shejiao_text_emotion"
+        android:textSize="@dimen/textsize16"
+        android:textColor="@color/A2A3A3"
+        android:layout_marginLeft="210px"
+        android:text="保密！"/>
+
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:background="@color/linecolors"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
+
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="兴趣爱好"
+            android:gravity="center"
+            android:layout_marginLeft="35px"
+            android:textSize="@dimen/textsize22"
+            android:textColor="@color/bantouming"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="15px"
+            android:id="@+id/shejiao_text_hobbies"
+            android:layout_gravity="center"
+            android:textSize="@dimen/textsize16"
+            android:textColor="@color/A2A3A3"
+            android:layout_marginLeft="210px"
+            android:text="保密"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="15px"
+        android:layout_marginRight="15px"
+        android:background="@color/linecolors"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/cardview_light_background"
+        android:layout_height="100px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="注册时间"
+            android:gravity="center"
+            android:layout_marginLeft="35px"
+            android:textSize="@dimen/textsize22"
+            android:textColor="@color/bantouming"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:layout_marginRight="15px"
+            android:layout_gravity="center"
+            android:id="@+id/shejiao_text_regdate"
+            android:textSize="@dimen/textsize16"
+            android:textColor="@color/A2A3A3"
+            android:layout_marginLeft="210px"
+            android:text="2016-2-5"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

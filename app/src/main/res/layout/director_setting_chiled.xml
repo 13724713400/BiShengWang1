@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+ <com.zhushan.bishengwang.Iselfview.MyGridView
+     android:layout_marginTop="34px"
+     android:layout_marginBottom="30px"
+        android:id="@+id/director_setting_chiled_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:verticalSpacing="28px"
+        android:horizontalSpacing="33px"
+        ></com.zhushan.bishengwang.Iselfview.MyGridView>
+   <!-- <TextView
+        android:id="@+id/director_setting_chiled_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />-->
+
+</LinearLayout>
