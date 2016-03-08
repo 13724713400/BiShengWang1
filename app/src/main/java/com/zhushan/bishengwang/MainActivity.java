@@ -84,7 +84,6 @@ public class MainActivity extends Basetivity{
         super.onCreate(savedInstanceState);
         setContentView(mainVu.initByLayout(this, R.layout.activity_main));
         initView();
-
         initData();
         initListener();
         main_homepage_tv.setTextColor(Color.parseColor("#ffdc2e"));
